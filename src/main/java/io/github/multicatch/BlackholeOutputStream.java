@@ -1,6 +1,5 @@
 package io.github.multicatch;
 
-import java.io.IOException;
 import java.io.OutputStream;
 
 /**
@@ -13,7 +12,7 @@ public class BlackholeOutputStream extends OutputStream {
     private int variable = 0;
 
     @Override
-    public void write(int i) throws IOException {
+    public void write(int i) {
         if ((long) variable + i > Integer.MAX_VALUE) {
             variable = 0;
         }
@@ -21,17 +20,17 @@ public class BlackholeOutputStream extends OutputStream {
     }
 
     @Override
-    public void write(byte[] b) throws IOException {
+    public void write(byte[] b) {
         this.write(b.length);
     }
 
     @Override
-    public void write(byte[] bytes, int i, int i1) throws IOException {
+    public void write(byte[] bytes, int i, int i1) {
         this.write(i + i1);
     }
 
     @Override
-    public void flush() throws IOException {
+    public void flush() {
         variable %= 255;
     }
 }
