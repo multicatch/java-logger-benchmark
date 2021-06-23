@@ -9,6 +9,10 @@ import io.github.multicatch.BlackholeOutputStream;
 
 import java.io.OutputStream;
 
+/**
+ * Appender for logback.
+ * Redirects all output to {@link BlackholeOutputStream}.
+ */
 public class BlackholeAppender extends OutputStreamAppender<ILoggingEvent> {
     private static final String PATTERN = "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n";
 

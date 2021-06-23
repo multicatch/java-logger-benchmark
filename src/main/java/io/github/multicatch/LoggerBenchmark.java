@@ -1,6 +1,7 @@
 package io.github.multicatch;
 
 import ch.qos.logback.classic.LoggerContext;
+import io.github.multicatch.java.BlackholeHandler;
 import io.github.multicatch.log4j.BlackholeLoggers;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.Mode;
