@@ -34,6 +34,9 @@
                         <manifest>
                             <mainClass>io.github.multicatch.LoggerBenchmark</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <Multi-Release>true</Multi-Release>
+                        </manifestEntries>
                     </archive>
                 </configuration>
 
