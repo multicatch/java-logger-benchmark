@@ -187,7 +187,8 @@ However, I believe that it should not be very significant unless the whole syste
 Exceptions that indicate some problems usually happen less frequently than standard log messages.
 
 The results are overall interesting, but the final conclusion about choosing the right tool for this job
-should be up to a developer/team.
+should be up to a developer/team. 
+Before you make a decision, please make sure to review all [results](results).
 
 ## Contributing
 
