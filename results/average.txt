@@ -1,0 +1,455 @@
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.javaLogger
+
+# Run progress: 0,00% complete, ETA 00:30:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 52,088 us/op
+# Warmup Iteration   2: 48,190 us/op
+# Warmup Iteration   3: 47,827 us/op
+# Warmup Iteration   4: 48,195 us/op
+# Warmup Iteration   5: 48,403 us/op
+Iteration   1: 48,301 us/op
+Iteration   2: 48,244 us/op
+Iteration   3: 48,167 us/op
+Iteration   4: 48,435 us/op
+Iteration   5: 48,089 us/op
+Iteration   6: 48,090 us/op
+Iteration   7: 48,191 us/op
+Iteration   8: 48,174 us/op
+Iteration   9: 48,050 us/op
+Iteration  10: 48,119 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.javaLogger":
+  48,186 ±(99.9%) 0,175 us/op [Average]
+  (min, avg, max) = (48,050, 48,186, 48,435), stdev = 0,116
+  CI (99.9%): [48,011, 48,361] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.javaLoggerDisabled
+
+# Run progress: 8,33% complete, ETA 00:27:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,001 us/op
+# Warmup Iteration   2: 0,001 us/op
+# Warmup Iteration   3: 0,001 us/op
+# Warmup Iteration   4: 0,001 us/op
+# Warmup Iteration   5: 0,001 us/op
+Iteration   1: 0,001 us/op
+Iteration   2: 0,001 us/op
+Iteration   3: 0,001 us/op
+Iteration   4: 0,001 us/op
+Iteration   5: 0,001 us/op
+Iteration   6: 0,001 us/op
+Iteration   7: 0,001 us/op
+Iteration   8: 0,001 us/op
+Iteration   9: 0,001 us/op
+Iteration  10: 0,001 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.javaLoggerDisabled":
+  0,001 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,001, 0,001, 0,001), stdev = 0,001
+  CI (99.9%): [0,001, 0,001] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.javaLoggerThrowable
+
+# Run progress: 16,67% complete, ETA 00:25:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 78,633 us/op
+# Warmup Iteration   2: 72,165 us/op
+# Warmup Iteration   3: 71,017 us/op
+# Warmup Iteration   4: 72,674 us/op
+# Warmup Iteration   5: 72,935 us/op
+Iteration   1: 72,105 us/op
+Iteration   2: 73,164 us/op
+Iteration   3: 73,488 us/op
+Iteration   4: 72,524 us/op
+Iteration   5: 72,492 us/op
+Iteration   6: 74,101 us/op
+Iteration   7: 74,079 us/op
+Iteration   8: 75,564 us/op
+Iteration   9: 73,942 us/op
+Iteration  10: 73,535 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.javaLoggerThrowable":
+  73,499 ±(99.9%) 1,527 us/op [Average]
+  (min, avg, max) = (72,105, 73,499, 75,564), stdev = 1,010
+  CI (99.9%): [71,972, 75,026] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.javaLoggerWithoutParams
+
+# Run progress: 25,00% complete, ETA 00:22:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 49,294 us/op
+# Warmup Iteration   2: 43,474 us/op
+# Warmup Iteration   3: 42,703 us/op
+# Warmup Iteration   4: 43,172 us/op
+# Warmup Iteration   5: 43,733 us/op
+Iteration   1: 43,787 us/op
+Iteration   2: 43,997 us/op
+Iteration   3: 44,215 us/op
+Iteration   4: 43,253 us/op
+Iteration   5: 43,197 us/op
+Iteration   6: 43,106 us/op
+Iteration   7: 43,459 us/op
+Iteration   8: 43,026 us/op
+Iteration   9: 43,852 us/op
+Iteration  10: 42,861 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.javaLoggerWithoutParams":
+  43,475 ±(99.9%) 0,695 us/op [Average]
+  (min, avg, max) = (42,861, 43,475, 44,215), stdev = 0,460
+  CI (99.9%): [42,781, 44,170] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.log4jLogger
+
+# Run progress: 33,33% complete, ETA 00:20:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,385 us/op
+# Warmup Iteration   2: 1,306 us/op
+# Warmup Iteration   3: 1,332 us/op
+# Warmup Iteration   4: 1,331 us/op
+# Warmup Iteration   5: 1,361 us/op
+Iteration   1: 1,354 us/op
+Iteration   2: 1,342 us/op
+Iteration   3: 1,345 us/op
+Iteration   4: 1,348 us/op
+Iteration   5: 1,348 us/op
+Iteration   6: 1,347 us/op
+Iteration   7: 1,339 us/op
+Iteration   8: 1,344 us/op
+Iteration   9: 1,338 us/op
+Iteration  10: 1,332 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.log4jLogger":
+  1,344 ±(99.9%) 0,009 us/op [Average]
+  (min, avg, max) = (1,332, 1,344, 1,354), stdev = 0,006
+  CI (99.9%): [1,334, 1,353] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.log4jLoggerDisabled
+
+# Run progress: 41,67% complete, ETA 00:17:37
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,003 us/op
+# Warmup Iteration   2: 0,003 us/op
+# Warmup Iteration   3: 0,003 us/op
+# Warmup Iteration   4: 0,003 us/op
+# Warmup Iteration   5: 0,003 us/op
+Iteration   1: 0,003 us/op
+Iteration   2: 0,003 us/op
+Iteration   3: 0,003 us/op
+Iteration   4: 0,003 us/op
+Iteration   5: 0,003 us/op
+Iteration   6: 0,003 us/op
+Iteration   7: 0,003 us/op
+Iteration   8: 0,003 us/op
+Iteration   9: 0,003 us/op
+Iteration  10: 0,003 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.log4jLoggerDisabled":
+  0,003 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,003, 0,003, 0,003), stdev = 0,001
+  CI (99.9%): [0,003, 0,003] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.log4jLoggerThrowable
+
+# Run progress: 50,00% complete, ETA 00:15:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 28,223 us/op
+# Warmup Iteration   2: 24,910 us/op
+# Warmup Iteration   3: 25,228 us/op
+# Warmup Iteration   4: 25,543 us/op
+# Warmup Iteration   5: 25,066 us/op
+Iteration   1: 25,058 us/op
+Iteration   2: 25,533 us/op
+Iteration   3: 25,255 us/op
+Iteration   4: 26,157 us/op
+Iteration   5: 25,641 us/op
+Iteration   6: 25,326 us/op
+Iteration   7: 25,640 us/op
+Iteration   8: 27,222 us/op
+Iteration   9: 26,498 us/op
+Iteration  10: 26,992 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.log4jLoggerThrowable":
+  25,932 ±(99.9%) 1,136 us/op [Average]
+  (min, avg, max) = (25,058, 25,932, 27,222), stdev = 0,751
+  CI (99.9%): [24,797, 27,068] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.log4jLoggerWithoutParams
+
+# Run progress: 58,33% complete, ETA 00:12:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,653 us/op
+# Warmup Iteration   2: 0,628 us/op
+# Warmup Iteration   3: 0,619 us/op
+# Warmup Iteration   4: 0,624 us/op
+# Warmup Iteration   5: 0,640 us/op
+Iteration   1: 0,640 us/op
+Iteration   2: 0,634 us/op
+Iteration   3: 0,627 us/op
+Iteration   4: 0,624 us/op
+Iteration   5: 0,622 us/op
+Iteration   6: 0,623 us/op
+Iteration   7: 0,604 us/op
+Iteration   8: 0,618 us/op
+Iteration   9: 0,604 us/op
+Iteration  10: 0,585 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.log4jLoggerWithoutParams":
+  0,618 ±(99.9%) 0,024 us/op [Average]
+  (min, avg, max) = (0,585, 0,618, 0,640), stdev = 0,016
+  CI (99.9%): [0,594, 0,642] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.logbackLogger
+
+# Run progress: 66,67% complete, ETA 00:10:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,499 us/op
+# Warmup Iteration   2: 1,422 us/op
+# Warmup Iteration   3: 1,416 us/op
+# Warmup Iteration   4: 1,403 us/op
+# Warmup Iteration   5: 1,407 us/op
+Iteration   1: 1,366 us/op
+Iteration   2: 1,328 us/op
+Iteration   3: 1,347 us/op
+Iteration   4: 1,309 us/op
+Iteration   5: 1,348 us/op
+Iteration   6: 1,372 us/op
+Iteration   7: 1,334 us/op
+Iteration   8: 1,322 us/op
+Iteration   9: 1,367 us/op
+Iteration  10: 1,345 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.logbackLogger":
+  1,344 ±(99.9%) 0,031 us/op [Average]
+  (min, avg, max) = (1,309, 1,344, 1,372), stdev = 0,021
+  CI (99.9%): [1,312, 1,375] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.logbackLoggerDisabled
+
+# Run progress: 75,00% complete, ETA 00:07:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,002 us/op
+# Warmup Iteration   2: 0,003 us/op
+# Warmup Iteration   3: 0,002 us/op
+# Warmup Iteration   4: 0,003 us/op
+# Warmup Iteration   5: 0,002 us/op
+Iteration   1: 0,003 us/op
+Iteration   2: 0,003 us/op
+Iteration   3: 0,003 us/op
+Iteration   4: 0,002 us/op
+Iteration   5: 0,002 us/op
+Iteration   6: 0,002 us/op
+Iteration   7: 0,003 us/op
+Iteration   8: 0,002 us/op
+Iteration   9: 0,002 us/op
+Iteration  10: 0,003 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.logbackLoggerDisabled":
+  0,003 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,002, 0,003, 0,003), stdev = 0,001
+  CI (99.9%): [0,002, 0,003] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.logbackLoggerThrowable
+
+# Run progress: 83,33% complete, ETA 00:05:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 7,166 us/op
+# Warmup Iteration   2: 6,427 us/op
+# Warmup Iteration   3: 6,509 us/op
+# Warmup Iteration   4: 6,507 us/op
+# Warmup Iteration   5: 6,544 us/op
+Iteration   1: 6,319 us/op
+Iteration   2: 6,403 us/op
+Iteration   3: 6,346 us/op
+Iteration   4: 6,253 us/op
+Iteration   5: 6,430 us/op
+Iteration   6: 6,552 us/op
+Iteration   7: 6,377 us/op
+Iteration   8: 6,328 us/op
+Iteration   9: 6,526 us/op
+Iteration  10: 6,418 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.logbackLoggerThrowable":
+  6,395 ±(99.9%) 0,140 us/op [Average]
+  (min, avg, max) = (6,253, 6,395, 6,552), stdev = 0,092
+  CI (99.9%): [6,255, 6,535] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: io.github.multicatch.LoggerBenchmark.logbackLoggerWithoutParams
+
+# Run progress: 91,67% complete, ETA 00:02:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,929 us/op
+# Warmup Iteration   2: 0,847 us/op
+# Warmup Iteration   3: 0,827 us/op
+# Warmup Iteration   4: 0,813 us/op
+# Warmup Iteration   5: 0,810 us/op
+Iteration   1: 0,819 us/op
+Iteration   2: 0,812 us/op
+Iteration   3: 0,849 us/op
+Iteration   4: 0,821 us/op
+Iteration   5: 0,829 us/op
+Iteration   6: 0,839 us/op
+Iteration   7: 0,862 us/op
+Iteration   8: 0,852 us/op
+Iteration   9: 0,835 us/op
+Iteration  10: 0,846 us/op
+
+
+Result "io.github.multicatch.LoggerBenchmark.logbackLoggerWithoutParams":
+  0,837 ±(99.9%) 0,024 us/op [Average]
+  (min, avg, max) = (0,812, 0,837, 0,862), stdev = 0,016
+  CI (99.9%): [0,812, 0,861] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:30:14
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                   Mode  Cnt   Score    Error  Units
+LoggerBenchmark.javaLogger                  avgt   10  48,186 ±  0,175  us/op
+LoggerBenchmark.javaLoggerDisabled          avgt   10   0,001 ±  0,001  us/op
+LoggerBenchmark.javaLoggerThrowable         avgt   10  73,499 ±  1,527  us/op
+LoggerBenchmark.javaLoggerWithoutParams     avgt   10  43,475 ±  0,695  us/op
+LoggerBenchmark.log4jLogger                 avgt   10   1,344 ±  0,009  us/op
+LoggerBenchmark.log4jLoggerDisabled         avgt   10   0,003 ±  0,001  us/op
+LoggerBenchmark.log4jLoggerThrowable        avgt   10  25,932 ±  1,136  us/op
+LoggerBenchmark.log4jLoggerWithoutParams    avgt   10   0,618 ±  0,024  us/op
+LoggerBenchmark.logbackLogger               avgt   10   1,344 ±  0,031  us/op
+LoggerBenchmark.logbackLoggerDisabled       avgt   10   0,003 ±  0,001  us/op
+LoggerBenchmark.logbackLoggerThrowable      avgt   10   6,395 ±  0,140  us/op
+LoggerBenchmark.logbackLoggerWithoutParams  avgt   10   0,837 ±  0,024  us/op
+
+Benchmark result is saved to average.json

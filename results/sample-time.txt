@@ -1,0 +1,1937 @@
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.javaLogger
+
+# Run progress: 0,00% complete, ETA 00:30:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 50,912 ±(99.9%) 0,471 us/op
+# Warmup Iteration   2: 47,117 ±(99.9%) 0,220 us/op
+# Warmup Iteration   3: 46,773 ±(99.9%) 0,205 us/op
+# Warmup Iteration   4: 47,033 ±(99.9%) 0,197 us/op
+# Warmup Iteration   5: 47,399 ±(99.9%) 0,209 us/op
+Iteration   1: 46,610 ±(99.9%) 0,217 us/op
+                 javaLogger·p0.00:   43,712 us/op
+                 javaLogger·p0.50:   44,800 us/op
+                 javaLogger·p0.90:   46,528 us/op
+                 javaLogger·p0.95:   50,240 us/op
+                 javaLogger·p0.99:   82,588 us/op
+                 javaLogger·p0.999:  147,574 us/op
+                 javaLogger·p0.9999: 1388,512 us/op
+                 javaLogger·p1.00:   1722,368 us/op
+
+Iteration   2: 46,663 ±(99.9%) 0,193 us/op
+                 javaLogger·p0.00:   43,712 us/op
+                 javaLogger·p0.50:   44,864 us/op
+                 javaLogger·p0.90:   46,810 us/op
+                 javaLogger·p0.95:   50,688 us/op
+                 javaLogger·p0.99:   80,512 us/op
+                 javaLogger·p0.999:  147,634 us/op
+                 javaLogger·p0.9999: 1147,039 us/op
+                 javaLogger·p1.00:   1449,984 us/op
+
+Iteration   3: 46,631 ±(99.9%) 0,212 us/op
+                 javaLogger·p0.00:   43,776 us/op
+                 javaLogger·p0.50:   44,800 us/op
+                 javaLogger·p0.90:   46,464 us/op
+                 javaLogger·p0.95:   49,984 us/op
+                 javaLogger·p0.99:   88,000 us/op
+                 javaLogger·p0.999:  153,997 us/op
+                 javaLogger·p0.9999: 1360,077 us/op
+                 javaLogger·p1.00:   1662,976 us/op
+
+Iteration   4: 46,736 ±(99.9%) 0,216 us/op
+                 javaLogger·p0.00:   43,776 us/op
+                 javaLogger·p0.50:   44,800 us/op
+                 javaLogger·p0.90:   46,592 us/op
+                 javaLogger·p0.95:   50,304 us/op
+                 javaLogger·p0.99:   97,536 us/op
+                 javaLogger·p0.999:  154,977 us/op
+                 javaLogger·p0.9999: 1381,128 us/op
+                 javaLogger·p1.00:   1619,968 us/op
+
+Iteration   5: 47,044 ±(99.9%) 0,210 us/op
+                 javaLogger·p0.00:   43,776 us/op
+                 javaLogger·p0.50:   44,992 us/op
+                 javaLogger·p0.90:   46,848 us/op
+                 javaLogger·p0.95:   50,880 us/op
+                 javaLogger·p0.99:   98,432 us/op
+                 javaLogger·p0.999:  160,627 us/op
+                 javaLogger·p0.9999: 1250,131 us/op
+                 javaLogger·p1.00:   1662,976 us/op
+
+Iteration   6: 46,791 ±(99.9%) 0,216 us/op
+                 javaLogger·p0.00:   43,776 us/op
+                 javaLogger·p0.50:   44,800 us/op
+                 javaLogger·p0.90:   46,592 us/op
+                 javaLogger·p0.95:   50,304 us/op
+                 javaLogger·p0.99:   97,792 us/op
+                 javaLogger·p0.999:  163,207 us/op
+                 javaLogger·p0.9999: 1300,761 us/op
+                 javaLogger·p1.00:   1595,392 us/op
+
+Iteration   7: 47,019 ±(99.9%) 0,234 us/op
+                 javaLogger·p0.00:   43,712 us/op
+                 javaLogger·p0.50:   44,800 us/op
+                 javaLogger·p0.90:   46,720 us/op
+                 javaLogger·p0.95:   51,008 us/op
+                 javaLogger·p0.99:   98,304 us/op
+                 javaLogger·p0.999:  171,814 us/op
+                 javaLogger·p0.9999: 1398,860 us/op
+                 javaLogger·p1.00:   2072,576 us/op
+
+Iteration   8: 46,810 ±(99.9%) 0,199 us/op
+                 javaLogger·p0.00:   43,712 us/op
+                 javaLogger·p0.50:   44,736 us/op
+                 javaLogger·p0.90:   46,656 us/op
+                 javaLogger·p0.95:   50,560 us/op
+                 javaLogger·p0.99:   98,304 us/op
+                 javaLogger·p0.999:  170,755 us/op
+                 javaLogger·p0.9999: 1183,573 us/op
+                 javaLogger·p1.00:   1814,528 us/op
+
+Iteration   9: 46,533 ±(99.9%) 0,208 us/op
+                 javaLogger·p0.00:   43,776 us/op
+                 javaLogger·p0.50:   44,736 us/op
+                 javaLogger·p0.90:   46,400 us/op
+                 javaLogger·p0.95:   50,112 us/op
+                 javaLogger·p0.99:   78,976 us/op
+                 javaLogger·p0.999:  155,997 us/op
+                 javaLogger·p0.9999: 1260,359 us/op
+                 javaLogger·p1.00:   1615,872 us/op
+
+Iteration  10: 46,444 ±(99.9%) 0,190 us/op
+                 javaLogger·p0.00:   43,776 us/op
+                 javaLogger·p0.50:   44,800 us/op
+                 javaLogger·p0.90:   46,464 us/op
+                 javaLogger·p0.95:   49,984 us/op
+                 javaLogger·p0.99:   78,336 us/op
+                 javaLogger·p0.999:  149,382 us/op
+                 javaLogger·p0.9999: 1157,755 us/op
+                 javaLogger·p1.00:   1517,568 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.javaLogger":
+  N = 1072300
+  mean =     46,727 ±(99.9%) 0,066 us/op
+
+  Histogram, us/op:
+    [   0,000,  250,000) = 1071802 
+    [ 250,000,  500,000) = 220 
+    [ 500,000,  750,000) = 23 
+    [ 750,000, 1000,000) = 43 
+    [1000,000, 1250,000) = 93 
+    [1250,000, 1500,000) = 84 
+    [1500,000, 1750,000) = 33 
+    [1750,000, 2000,000) = 1 
+    [2000,000, 2250,000) = 1 
+    [2250,000, 2500,000) = 0 
+    [2500,000, 2750,000) = 0 
+
+  Percentiles, us/op:
+      p(0,0000) =     43,712 us/op
+     p(50,0000) =     44,800 us/op
+     p(90,0000) =     46,592 us/op
+     p(95,0000) =     50,368 us/op
+     p(99,0000) =     94,080 us/op
+     p(99,9000) =    156,160 us/op
+     p(99,9900) =   1283,154 us/op
+     p(99,9990) =   1602,671 us/op
+     p(99,9999) =   2053,919 us/op
+    p(100,0000) =   2072,576 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.javaLoggerDisabled
+
+# Run progress: 8,33% complete, ETA 00:27:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,043 ±(99.9%) 0,007 us/op
+# Warmup Iteration   2: 0,042 ±(99.9%) 0,001 us/op
+# Warmup Iteration   3: 0,043 ±(99.9%) 0,001 us/op
+# Warmup Iteration   4: 0,045 ±(99.9%) 0,005 us/op
+# Warmup Iteration   5: 0,044 ±(99.9%) 0,003 us/op
+Iteration   1: 0,043 ±(99.9%) 0,001 us/op
+                 javaLoggerDisabled·p0.00:   0,012 us/op
+                 javaLoggerDisabled·p0.50:   0,040 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,044 us/op
+                 javaLoggerDisabled·p0.99:   0,072 us/op
+                 javaLoggerDisabled·p0.999:  0,124 us/op
+                 javaLoggerDisabled·p0.9999: 7,512 us/op
+                 javaLoggerDisabled·p1.00:   12,688 us/op
+
+Iteration   2: 0,043 ±(99.9%) 0,001 us/op
+                 javaLoggerDisabled·p0.00:   0,003 us/op
+                 javaLoggerDisabled·p0.50:   0,041 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,045 us/op
+                 javaLoggerDisabled·p0.99:   0,072 us/op
+                 javaLoggerDisabled·p0.999:  0,124 us/op
+                 javaLoggerDisabled·p0.9999: 7,566 us/op
+                 javaLoggerDisabled·p1.00:   21,824 us/op
+
+Iteration   3: 0,043 ±(99.9%) 0,001 us/op
+                 javaLoggerDisabled·p0.00:   0,040 us/op
+                 javaLoggerDisabled·p0.50:   0,040 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,044 us/op
+                 javaLoggerDisabled·p0.99:   0,086 us/op
+                 javaLoggerDisabled·p0.999:  0,124 us/op
+                 javaLoggerDisabled·p0.9999: 7,389 us/op
+                 javaLoggerDisabled·p1.00:   17,760 us/op
+
+Iteration   4: 0,043 ±(99.9%) 0,001 us/op
+                 javaLoggerDisabled·p0.00:   0,029 us/op
+                 javaLoggerDisabled·p0.50:   0,040 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,043 us/op
+                 javaLoggerDisabled·p0.99:   0,071 us/op
+                 javaLoggerDisabled·p0.999:  0,124 us/op
+                 javaLoggerDisabled·p0.9999: 7,533 us/op
+                 javaLoggerDisabled·p1.00:   41,344 us/op
+
+Iteration   5: 0,044 ±(99.9%) 0,001 us/op
+                 javaLoggerDisabled·p0.00:   0,013 us/op
+                 javaLoggerDisabled·p0.50:   0,041 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,045 us/op
+                 javaLoggerDisabled·p0.99:   0,080 us/op
+                 javaLoggerDisabled·p0.999:  0,172 us/op
+                 javaLoggerDisabled·p0.9999: 8,700 us/op
+                 javaLoggerDisabled·p1.00:   27,712 us/op
+
+Iteration   6: 0,043 ±(99.9%) 0,001 us/op
+                 javaLoggerDisabled·p0.00:   0,006 us/op
+                 javaLoggerDisabled·p0.50:   0,040 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,043 us/op
+                 javaLoggerDisabled·p0.99:   0,065 us/op
+                 javaLoggerDisabled·p0.999:  0,124 us/op
+                 javaLoggerDisabled·p0.9999: 7,333 us/op
+                 javaLoggerDisabled·p1.00:   41,792 us/op
+
+Iteration   7: 0,043 ±(99.9%) 0,001 us/op
+                 javaLoggerDisabled·p0.00:   0,007 us/op
+                 javaLoggerDisabled·p0.50:   0,040 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,043 us/op
+                 javaLoggerDisabled·p0.99:   0,071 us/op
+                 javaLoggerDisabled·p0.999:  0,124 us/op
+                 javaLoggerDisabled·p0.9999: 7,517 us/op
+                 javaLoggerDisabled·p1.00:   14,160 us/op
+
+Iteration   8: 0,045 ±(99.9%) 0,002 us/op
+                 javaLoggerDisabled·p0.00:   0,029 us/op
+                 javaLoggerDisabled·p0.50:   0,041 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,044 us/op
+                 javaLoggerDisabled·p0.99:   0,073 us/op
+                 javaLoggerDisabled·p0.999:  0,149 us/op
+                 javaLoggerDisabled·p0.9999: 7,864 us/op
+                 javaLoggerDisabled·p1.00:   49,216 us/op
+
+Iteration   9: 0,044 ±(99.9%) 0,001 us/op
+                 javaLoggerDisabled·p0.00:   0,006 us/op
+                 javaLoggerDisabled·p0.50:   0,041 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,049 us/op
+                 javaLoggerDisabled·p0.99:   0,087 us/op
+                 javaLoggerDisabled·p0.999:  0,128 us/op
+                 javaLoggerDisabled·p0.9999: 7,455 us/op
+                 javaLoggerDisabled·p1.00:   40,064 us/op
+
+Iteration  10: 0,045 ±(99.9%) 0,006 us/op
+                 javaLoggerDisabled·p0.00:   0,029 us/op
+                 javaLoggerDisabled·p0.50:   0,041 us/op
+                 javaLoggerDisabled·p0.90:   0,041 us/op
+                 javaLoggerDisabled·p0.95:   0,044 us/op
+                 javaLoggerDisabled·p0.99:   0,071 us/op
+                 javaLoggerDisabled·p0.999:  0,124 us/op
+                 javaLoggerDisabled·p0.9999: 7,437 us/op
+                 javaLoggerDisabled·p1.00:   357,888 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.javaLoggerDisabled":
+  N = 2130096
+  mean =      0,044 ±(99.9%) 0,001 us/op
+
+  Histogram, us/op:
+    [  0,000,  25,000) = 2130084 
+    [ 25,000,  50,000) = 11 
+    [ 50,000,  75,000) = 0 
+    [ 75,000, 100,000) = 0 
+    [100,000, 125,000) = 0 
+    [125,000, 150,000) = 0 
+    [150,000, 175,000) = 0 
+    [175,000, 200,000) = 0 
+    [200,000, 225,000) = 0 
+    [225,000, 250,000) = 0 
+    [250,000, 275,000) = 0 
+    [275,000, 300,000) = 0 
+    [300,000, 325,000) = 0 
+    [325,000, 350,000) = 0 
+    [350,000, 375,000) = 1 
+
+  Percentiles, us/op:
+      p(0,0000) =      0,003 us/op
+     p(50,0000) =      0,041 us/op
+     p(90,0000) =      0,041 us/op
+     p(95,0000) =      0,044 us/op
+     p(99,0000) =      0,073 us/op
+     p(99,9000) =      0,124 us/op
+     p(99,9900) =      7,520 us/op
+     p(99,9990) =     17,673 us/op
+     p(99,9999) =     48,250 us/op
+    p(100,0000) =    357,888 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.javaLoggerThrowable
+
+# Run progress: 16,67% complete, ETA 00:25:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 79,406 ±(99.9%) 0,921 us/op
+# Warmup Iteration   2: 71,382 ±(99.9%) 0,244 us/op
+# Warmup Iteration   3: 72,419 ±(99.9%) 0,259 us/op
+# Warmup Iteration   4: 72,525 ±(99.9%) 0,237 us/op
+# Warmup Iteration   5: 73,194 ±(99.9%) 0,244 us/op
+Iteration   1: 72,854 ±(99.9%) 0,247 us/op
+                 javaLoggerThrowable·p0.00:   60,672 us/op
+                 javaLoggerThrowable·p0.50:   67,072 us/op
+                 javaLoggerThrowable·p0.90:   89,856 us/op
+                 javaLoggerThrowable·p0.95:   110,208 us/op
+                 javaLoggerThrowable·p0.99:   143,025 us/op
+                 javaLoggerThrowable·p0.999:  217,080 us/op
+                 javaLoggerThrowable·p0.9999: 1395,072 us/op
+                 javaLoggerThrowable·p1.00:   1822,720 us/op
+
+Iteration   2: 72,627 ±(99.9%) 0,256 us/op
+                 javaLoggerThrowable·p0.00:   60,032 us/op
+                 javaLoggerThrowable·p0.50:   67,328 us/op
+                 javaLoggerThrowable·p0.90:   85,760 us/op
+                 javaLoggerThrowable·p0.95:   107,264 us/op
+                 javaLoggerThrowable·p0.99:   137,354 us/op
+                 javaLoggerThrowable·p0.999:  215,950 us/op
+                 javaLoggerThrowable·p0.9999: 1484,498 us/op
+                 javaLoggerThrowable·p1.00:   3420,160 us/op
+
+Iteration   3: 73,714 ±(99.9%) 0,256 us/op
+                 javaLoggerThrowable·p0.00:   61,120 us/op
+                 javaLoggerThrowable·p0.50:   67,328 us/op
+                 javaLoggerThrowable·p0.90:   90,624 us/op
+                 javaLoggerThrowable·p0.95:   111,872 us/op
+                 javaLoggerThrowable·p0.99:   145,664 us/op
+                 javaLoggerThrowable·p0.999:  226,721 us/op
+                 javaLoggerThrowable·p0.9999: 1422,936 us/op
+                 javaLoggerThrowable·p1.00:   1896,448 us/op
+
+Iteration   4: 74,423 ±(99.9%) 0,251 us/op
+                 javaLoggerThrowable·p0.00:   60,480 us/op
+                 javaLoggerThrowable·p0.50:   68,480 us/op
+                 javaLoggerThrowable·p0.90:   91,648 us/op
+                 javaLoggerThrowable·p0.95:   114,176 us/op
+                 javaLoggerThrowable·p0.99:   145,152 us/op
+                 javaLoggerThrowable·p0.999:  218,368 us/op
+                 javaLoggerThrowable·p0.9999: 1369,604 us/op
+                 javaLoggerThrowable·p1.00:   1769,472 us/op
+
+Iteration   5: 75,096 ±(99.9%) 0,269 us/op
+                 javaLoggerThrowable·p0.00:   61,120 us/op
+                 javaLoggerThrowable·p0.50:   68,480 us/op
+                 javaLoggerThrowable·p0.90:   95,232 us/op
+                 javaLoggerThrowable·p0.95:   116,352 us/op
+                 javaLoggerThrowable·p0.99:   147,712 us/op
+                 javaLoggerThrowable·p0.999:  242,952 us/op
+                 javaLoggerThrowable·p0.9999: 1426,845 us/op
+                 javaLoggerThrowable·p1.00:   1978,368 us/op
+
+Iteration   6: 74,106 ±(99.9%) 0,265 us/op
+                 javaLoggerThrowable·p0.00:   61,184 us/op
+                 javaLoggerThrowable·p0.50:   67,840 us/op
+                 javaLoggerThrowable·p0.90:   90,624 us/op
+                 javaLoggerThrowable·p0.95:   113,920 us/op
+                 javaLoggerThrowable·p0.99:   144,640 us/op
+                 javaLoggerThrowable·p0.999:  233,814 us/op
+                 javaLoggerThrowable·p0.9999: 1437,833 us/op
+                 javaLoggerThrowable·p1.00:   2809,856 us/op
+
+Iteration   7: 75,403 ±(99.9%) 0,285 us/op
+                 javaLoggerThrowable·p0.00:   60,352 us/op
+                 javaLoggerThrowable·p0.50:   68,352 us/op
+                 javaLoggerThrowable·p0.90:   95,104 us/op
+                 javaLoggerThrowable·p0.95:   118,323 us/op
+                 javaLoggerThrowable·p0.99:   159,969 us/op
+                 javaLoggerThrowable·p0.999:  249,088 us/op
+                 javaLoggerThrowable·p0.9999: 1497,654 us/op
+                 javaLoggerThrowable·p1.00:   2580,480 us/op
+
+Iteration   8: 75,622 ±(99.9%) 0,284 us/op
+                 javaLoggerThrowable·p0.00:   61,120 us/op
+                 javaLoggerThrowable·p0.50:   67,968 us/op
+                 javaLoggerThrowable·p0.90:   99,072 us/op
+                 javaLoggerThrowable·p0.95:   117,632 us/op
+                 javaLoggerThrowable·p0.99:   154,227 us/op
+                 javaLoggerThrowable·p0.999:  233,444 us/op
+                 javaLoggerThrowable·p0.9999: 1438,902 us/op
+                 javaLoggerThrowable·p1.00:   2514,944 us/op
+
+Iteration   9: 74,115 ±(99.9%) 0,276 us/op
+                 javaLoggerThrowable·p0.00:   60,352 us/op
+                 javaLoggerThrowable·p0.50:   67,456 us/op
+                 javaLoggerThrowable·p0.90:   92,672 us/op
+                 javaLoggerThrowable·p0.95:   114,560 us/op
+                 javaLoggerThrowable·p0.99:   144,901 us/op
+                 javaLoggerThrowable·p0.999:  235,370 us/op
+                 javaLoggerThrowable·p0.9999: 1458,671 us/op
+                 javaLoggerThrowable·p1.00:   2752,512 us/op
+
+Iteration  10: 74,348 ±(99.9%) 0,264 us/op
+                 javaLoggerThrowable·p0.00:   60,032 us/op
+                 javaLoggerThrowable·p0.50:   68,736 us/op
+                 javaLoggerThrowable·p0.90:   90,112 us/op
+                 javaLoggerThrowable·p0.95:   111,104 us/op
+                 javaLoggerThrowable·p0.99:   142,848 us/op
+                 javaLoggerThrowable·p0.999:  234,622 us/op
+                 javaLoggerThrowable·p0.9999: 1427,809 us/op
+                 javaLoggerThrowable·p1.00:   1914,880 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.javaLoggerThrowable":
+  N = 1345032
+  mean =     74,219 ±(99.9%) 0,084 us/op
+
+  Histogram, us/op:
+    [   0,000,  250,000) = 1343996 
+    [ 250,000,  500,000) = 557 
+    [ 500,000,  750,000) = 52 
+    [ 750,000, 1000,000) = 51 
+    [1000,000, 1250,000) = 116 
+    [1250,000, 1500,000) = 166 
+    [1500,000, 1750,000) = 68 
+    [1750,000, 2000,000) = 20 
+    [2000,000, 2250,000) = 0 
+    [2250,000, 2500,000) = 1 
+    [2500,000, 2750,000) = 2 
+    [2750,000, 3000,000) = 2 
+    [3000,000, 3250,000) = 0 
+    [3250,000, 3500,000) = 1 
+    [3500,000, 3750,000) = 0 
+
+  Percentiles, us/op:
+      p(0,0000) =     60,032 us/op
+     p(50,0000) =     67,840 us/op
+     p(90,0000) =     91,264 us/op
+     p(95,0000) =    113,920 us/op
+     p(99,0000) =    145,920 us/op
+     p(99,9000) =    229,632 us/op
+     p(99,9900) =   1427,456 us/op
+     p(99,9990) =   1837,354 us/op
+     p(99,9999) =   3209,585 us/op
+    p(100,0000) =   3420,160 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.javaLoggerWithoutParams
+
+# Run progress: 25,00% complete, ETA 00:22:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 50,548 ±(99.9%) 1,148 us/op
+# Warmup Iteration   2: 43,169 ±(99.9%) 0,182 us/op
+# Warmup Iteration   3: 43,262 ±(99.9%) 0,178 us/op
+# Warmup Iteration   4: 43,219 ±(99.9%) 0,200 us/op
+# Warmup Iteration   5: 42,888 ±(99.9%) 0,169 us/op
+Iteration   1: 43,297 ±(99.9%) 0,198 us/op
+                 javaLoggerWithoutParams·p0.00:   35,200 us/op
+                 javaLoggerWithoutParams·p0.50:   39,616 us/op
+                 javaLoggerWithoutParams·p0.90:   52,480 us/op
+                 javaLoggerWithoutParams·p0.95:   68,992 us/op
+                 javaLoggerWithoutParams·p0.99:   88,320 us/op
+                 javaLoggerWithoutParams·p0.999:  139,945 us/op
+                 javaLoggerWithoutParams·p0.9999: 1228,661 us/op
+                 javaLoggerWithoutParams·p1.00:   2330,624 us/op
+
+Iteration   2: 44,128 ±(99.9%) 0,199 us/op
+                 javaLoggerWithoutParams·p0.00:   35,200 us/op
+                 javaLoggerWithoutParams·p0.50:   39,616 us/op
+                 javaLoggerWithoutParams·p0.90:   58,048 us/op
+                 javaLoggerWithoutParams·p0.95:   72,192 us/op
+                 javaLoggerWithoutParams·p0.99:   96,384 us/op
+                 javaLoggerWithoutParams·p0.999:  147,456 us/op
+                 javaLoggerWithoutParams·p0.9999: 1213,971 us/op
+                 javaLoggerWithoutParams·p1.00:   2211,840 us/op
+
+Iteration   3: 43,077 ±(99.9%) 0,197 us/op
+                 javaLoggerWithoutParams·p0.00:   35,008 us/op
+                 javaLoggerWithoutParams·p0.50:   39,872 us/op
+                 javaLoggerWithoutParams·p0.90:   50,176 us/op
+                 javaLoggerWithoutParams·p0.95:   63,680 us/op
+                 javaLoggerWithoutParams·p0.99:   86,400 us/op
+                 javaLoggerWithoutParams·p0.999:  138,752 us/op
+                 javaLoggerWithoutParams·p0.9999: 1108,857 us/op
+                 javaLoggerWithoutParams·p1.00:   3305,472 us/op
+
+Iteration   4: 42,451 ±(99.9%) 0,176 us/op
+                 javaLoggerWithoutParams·p0.00:   35,136 us/op
+                 javaLoggerWithoutParams·p0.50:   39,616 us/op
+                 javaLoggerWithoutParams·p0.90:   48,704 us/op
+                 javaLoggerWithoutParams·p0.95:   61,248 us/op
+                 javaLoggerWithoutParams·p0.99:   79,488 us/op
+                 javaLoggerWithoutParams·p0.999:  118,753 us/op
+                 javaLoggerWithoutParams·p0.9999: 1145,550 us/op
+                 javaLoggerWithoutParams·p1.00:   1785,856 us/op
+
+Iteration   5: 42,857 ±(99.9%) 0,184 us/op
+                 javaLoggerWithoutParams·p0.00:   35,200 us/op
+                 javaLoggerWithoutParams·p0.50:   39,744 us/op
+                 javaLoggerWithoutParams·p0.90:   49,728 us/op
+                 javaLoggerWithoutParams·p0.95:   64,064 us/op
+                 javaLoggerWithoutParams·p0.99:   84,850 us/op
+                 javaLoggerWithoutParams·p0.999:  140,157 us/op
+                 javaLoggerWithoutParams·p0.9999: 1131,165 us/op
+                 javaLoggerWithoutParams·p1.00:   1763,328 us/op
+
+Iteration   6: 44,151 ±(99.9%) 0,170 us/op
+                 javaLoggerWithoutParams·p0.00:   34,688 us/op
+                 javaLoggerWithoutParams·p0.50:   39,808 us/op
+                 javaLoggerWithoutParams·p0.90:   57,408 us/op
+                 javaLoggerWithoutParams·p0.95:   71,808 us/op
+                 javaLoggerWithoutParams·p0.99:   92,544 us/op
+                 javaLoggerWithoutParams·p0.999:  154,355 us/op
+                 javaLoggerWithoutParams·p0.9999: 993,783 us/op
+                 javaLoggerWithoutParams·p1.00:   1392,640 us/op
+
+Iteration   7: 43,174 ±(99.9%) 0,170 us/op
+                 javaLoggerWithoutParams·p0.00:   35,072 us/op
+                 javaLoggerWithoutParams·p0.50:   39,616 us/op
+                 javaLoggerWithoutParams·p0.90:   52,544 us/op
+                 javaLoggerWithoutParams·p0.95:   69,120 us/op
+                 javaLoggerWithoutParams·p0.99:   88,192 us/op
+                 javaLoggerWithoutParams·p0.999:  136,960 us/op
+                 javaLoggerWithoutParams·p0.9999: 1047,671 us/op
+                 javaLoggerWithoutParams·p1.00:   1679,360 us/op
+
+Iteration   8: 43,165 ±(99.9%) 0,177 us/op
+                 javaLoggerWithoutParams·p0.00:   35,264 us/op
+                 javaLoggerWithoutParams·p0.50:   40,064 us/op
+                 javaLoggerWithoutParams·p0.90:   49,536 us/op
+                 javaLoggerWithoutParams·p0.95:   65,664 us/op
+                 javaLoggerWithoutParams·p0.99:   83,328 us/op
+                 javaLoggerWithoutParams·p0.999:  135,168 us/op
+                 javaLoggerWithoutParams·p0.9999: 1173,371 us/op
+                 javaLoggerWithoutParams·p1.00:   1521,664 us/op
+
+Iteration   9: 43,747 ±(99.9%) 0,205 us/op
+                 javaLoggerWithoutParams·p0.00:   35,200 us/op
+                 javaLoggerWithoutParams·p0.50:   39,488 us/op
+                 javaLoggerWithoutParams·p0.90:   54,336 us/op
+                 javaLoggerWithoutParams·p0.95:   70,656 us/op
+                 javaLoggerWithoutParams·p0.99:   101,469 us/op
+                 javaLoggerWithoutParams·p0.999:  187,392 us/op
+                 javaLoggerWithoutParams·p0.9999: 1212,448 us/op
+                 javaLoggerWithoutParams·p1.00:   2297,856 us/op
+
+Iteration  10: 42,648 ±(99.9%) 0,169 us/op
+                 javaLoggerWithoutParams·p0.00:   35,200 us/op
+                 javaLoggerWithoutParams·p0.50:   39,680 us/op
+                 javaLoggerWithoutParams·p0.90:   48,704 us/op
+                 javaLoggerWithoutParams·p0.95:   64,384 us/op
+                 javaLoggerWithoutParams·p0.99:   82,304 us/op
+                 javaLoggerWithoutParams·p0.999:  137,967 us/op
+                 javaLoggerWithoutParams·p0.9999: 1080,718 us/op
+                 javaLoggerWithoutParams·p1.00:   1554,432 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.javaLoggerWithoutParams":
+  N = 1154353
+  mean =     43,262 ±(99.9%) 0,058 us/op
+
+  Histogram, us/op:
+    [   0,000,  250,000) = 1154075 
+    [ 250,000,  500,000) = 94 
+    [ 500,000,  750,000) = 5 
+    [ 750,000, 1000,000) = 32 
+    [1000,000, 1250,000) = 72 
+    [1250,000, 1500,000) = 54 
+    [1500,000, 1750,000) = 14 
+    [1750,000, 2000,000) = 3 
+    [2000,000, 2250,000) = 1 
+    [2250,000, 2500,000) = 2 
+    [2500,000, 2750,000) = 0 
+    [2750,000, 3000,000) = 0 
+    [3000,000, 3250,000) = 0 
+    [3250,000, 3500,000) = 1 
+    [3500,000, 3750,000) = 0 
+
+  Percentiles, us/op:
+      p(0,0000) =     34,688 us/op
+     p(50,0000) =     39,744 us/op
+     p(90,0000) =     52,352 us/op
+     p(95,0000) =     68,224 us/op
+     p(99,0000) =     88,832 us/op
+     p(99,9000) =    145,408 us/op
+     p(99,9900) =   1099,776 us/op
+     p(99,9990) =   1599,310 us/op
+     p(99,9999) =   3155,000 us/op
+    p(100,0000) =   3305,472 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.log4jLogger
+
+# Run progress: 33,33% complete, ETA 00:20:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,796 ±(99.9%) 0,142 us/op
+# Warmup Iteration   2: 1,454 ±(99.9%) 0,018 us/op
+# Warmup Iteration   3: 1,438 ±(99.9%) 0,018 us/op
+# Warmup Iteration   4: 1,429 ±(99.9%) 0,018 us/op
+# Warmup Iteration   5: 1,441 ±(99.9%) 0,013 us/op
+Iteration   1: 1,453 ±(99.9%) 0,020 us/op
+                 log4jLogger·p0.00:   1,118 us/op
+                 log4jLogger·p0.50:   1,326 us/op
+                 log4jLogger·p0.90:   1,700 us/op
+                 log4jLogger·p0.95:   2,368 us/op
+                 log4jLogger·p0.99:   3,080 us/op
+                 log4jLogger·p0.999:  9,280 us/op
+                 log4jLogger·p0.9999: 28,335 us/op
+                 log4jLogger·p1.00:   1310,720 us/op
+
+Iteration   2: 1,427 ±(99.9%) 0,018 us/op
+                 log4jLogger·p0.00:   1,102 us/op
+                 log4jLogger·p0.50:   1,304 us/op
+                 log4jLogger·p0.90:   1,674 us/op
+                 log4jLogger·p0.95:   2,204 us/op
+                 log4jLogger·p0.99:   2,896 us/op
+                 log4jLogger·p0.999:  9,490 us/op
+                 log4jLogger·p0.9999: 21,108 us/op
+                 log4jLogger·p1.00:   1226,752 us/op
+
+Iteration   3: 1,458 ±(99.9%) 0,022 us/op
+                 log4jLogger·p0.00:   1,098 us/op
+                 log4jLogger·p0.50:   1,308 us/op
+                 log4jLogger·p0.90:   1,704 us/op
+                 log4jLogger·p0.95:   2,300 us/op
+                 log4jLogger·p0.99:   3,120 us/op
+                 log4jLogger·p0.999:  14,800 us/op
+                 log4jLogger·p0.9999: 32,793 us/op
+                 log4jLogger·p1.00:   1452,032 us/op
+
+Iteration   4: 1,414 ±(99.9%) 0,017 us/op
+                 log4jLogger·p0.00:   1,108 us/op
+                 log4jLogger·p0.50:   1,296 us/op
+                 log4jLogger·p0.90:   1,514 us/op
+                 log4jLogger·p0.95:   2,004 us/op
+                 log4jLogger·p0.99:   2,760 us/op
+                 log4jLogger·p0.999:  13,320 us/op
+                 log4jLogger·p0.9999: 30,699 us/op
+                 log4jLogger·p1.00:   1114,112 us/op
+
+Iteration   5: 1,420 ±(99.9%) 0,005 us/op
+                 log4jLogger·p0.00:   1,100 us/op
+                 log4jLogger·p0.50:   1,302 us/op
+                 log4jLogger·p0.90:   1,624 us/op
+                 log4jLogger·p0.95:   2,280 us/op
+                 log4jLogger·p0.99:   3,008 us/op
+                 log4jLogger·p0.999:  10,689 us/op
+                 log4jLogger·p0.9999: 25,654 us/op
+                 log4jLogger·p1.00:   149,248 us/op
+
+Iteration   6: 1,437 ±(99.9%) 0,012 us/op
+                 log4jLogger·p0.00:   1,112 us/op
+                 log4jLogger·p0.50:   1,310 us/op
+                 log4jLogger·p0.90:   1,690 us/op
+                 log4jLogger·p0.95:   2,332 us/op
+                 log4jLogger·p0.99:   3,128 us/op
+                 log4jLogger·p0.999:  9,615 us/op
+                 log4jLogger·p0.9999: 18,412 us/op
+                 log4jLogger·p1.00:   750,592 us/op
+
+Iteration   7: 1,401 ±(99.9%) 0,005 us/op
+                 log4jLogger·p0.00:   1,108 us/op
+                 log4jLogger·p0.50:   1,306 us/op
+                 log4jLogger·p0.90:   1,526 us/op
+                 log4jLogger·p0.95:   1,962 us/op
+                 log4jLogger·p0.99:   2,732 us/op
+                 log4jLogger·p0.999:  10,532 us/op
+                 log4jLogger·p0.9999: 23,966 us/op
+                 log4jLogger·p1.00:   85,248 us/op
+
+Iteration   8: 1,466 ±(99.9%) 0,016 us/op
+                 log4jLogger·p0.00:   1,098 us/op
+                 log4jLogger·p0.50:   1,332 us/op
+                 log4jLogger·p0.90:   1,700 us/op
+                 log4jLogger·p0.95:   2,372 us/op
+                 log4jLogger·p0.99:   3,104 us/op
+                 log4jLogger·p0.999:  12,125 us/op
+                 log4jLogger·p0.9999: 29,360 us/op
+                 log4jLogger·p1.00:   1026,048 us/op
+
+Iteration   9: 1,422 ±(99.9%) 0,005 us/op
+                 log4jLogger·p0.00:   1,092 us/op
+                 log4jLogger·p0.50:   1,300 us/op
+                 log4jLogger·p0.90:   1,660 us/op
+                 log4jLogger·p0.95:   2,292 us/op
+                 log4jLogger·p0.99:   3,100 us/op
+                 log4jLogger·p0.999:  9,401 us/op
+                 log4jLogger·p0.9999: 20,919 us/op
+                 log4jLogger·p1.00:   237,056 us/op
+
+Iteration  10: 1,460 ±(99.9%) 0,005 us/op
+                 log4jLogger·p0.00:   1,092 us/op
+                 log4jLogger·p0.50:   1,318 us/op
+                 log4jLogger·p0.90:   1,852 us/op
+                 log4jLogger·p0.95:   2,412 us/op
+                 log4jLogger·p0.99:   3,320 us/op
+                 log4jLogger·p0.999:  9,159 us/op
+                 log4jLogger·p0.9999: 18,564 us/op
+                 log4jLogger·p1.00:   174,080 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.log4jLogger":
+  N = 2261395
+  mean =      1,435 ±(99.9%) 0,004 us/op
+
+  Histogram, us/op:
+    [   0,000,  125,000) = 2261384 
+    [ 125,000,  250,000) = 4 
+    [ 250,000,  375,000) = 1 
+    [ 375,000,  500,000) = 0 
+    [ 500,000,  625,000) = 0 
+    [ 625,000,  750,000) = 0 
+    [ 750,000,  875,000) = 1 
+    [ 875,000, 1000,000) = 0 
+    [1000,000, 1125,000) = 2 
+    [1125,000, 1250,000) = 1 
+    [1250,000, 1375,000) = 1 
+    [1375,000, 1500,000) = 1 
+    [1500,000, 1625,000) = 0 
+    [1625,000, 1750,000) = 0 
+    [1750,000, 1875,000) = 0 
+
+  Percentiles, us/op:
+      p(0,0000) =      1,092 us/op
+     p(50,0000) =      1,310 us/op
+     p(90,0000) =      1,666 us/op
+     p(95,0000) =      2,292 us/op
+     p(99,0000) =      3,048 us/op
+     p(99,9000) =     10,800 us/op
+     p(99,9900) =     26,350 us/op
+     p(99,9990) =     60,540 us/op
+     p(99,9999) =   1288,771 us/op
+    p(100,0000) =   1452,032 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.log4jLoggerDisabled
+
+# Run progress: 41,67% complete, ETA 00:17:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,053 ±(99.9%) 0,008 us/op
+# Warmup Iteration   2: 0,052 ±(99.9%) 0,001 us/op
+# Warmup Iteration   3: 0,053 ±(99.9%) 0,001 us/op
+# Warmup Iteration   4: 0,055 ±(99.9%) 0,006 us/op
+# Warmup Iteration   5: 0,054 ±(99.9%) 0,004 us/op
+Iteration   1: 0,053 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,003 us/op
+                 log4jLoggerDisabled·p0.50:   0,049 us/op
+                 log4jLoggerDisabled·p0.90:   0,058 us/op
+                 log4jLoggerDisabled·p0.95:   0,072 us/op
+                 log4jLoggerDisabled·p0.99:   0,096 us/op
+                 log4jLoggerDisabled·p0.999:  0,338 us/op
+                 log4jLoggerDisabled·p0.9999: 6,904 us/op
+                 log4jLoggerDisabled·p1.00:   62,080 us/op
+
+Iteration   2: 0,054 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,009 us/op
+                 log4jLoggerDisabled·p0.50:   0,049 us/op
+                 log4jLoggerDisabled·p0.90:   0,064 us/op
+                 log4jLoggerDisabled·p0.95:   0,076 us/op
+                 log4jLoggerDisabled·p0.99:   0,096 us/op
+                 log4jLoggerDisabled·p0.999:  0,270 us/op
+                 log4jLoggerDisabled·p0.9999: 10,914 us/op
+                 log4jLoggerDisabled·p1.00:   34,112 us/op
+
+Iteration   3: 0,054 ±(99.9%) 0,003 us/op
+                 log4jLoggerDisabled·p0.00:   0,009 us/op
+                 log4jLoggerDisabled·p0.50:   0,049 us/op
+                 log4jLoggerDisabled·p0.90:   0,058 us/op
+                 log4jLoggerDisabled·p0.95:   0,073 us/op
+                 log4jLoggerDisabled·p0.99:   0,107 us/op
+                 log4jLoggerDisabled·p0.999:  0,239 us/op
+                 log4jLoggerDisabled·p0.9999: 7,721 us/op
+                 log4jLoggerDisabled·p1.00:   252,672 us/op
+
+Iteration   4: 0,053 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,040 us/op
+                 log4jLoggerDisabled·p0.50:   0,049 us/op
+                 log4jLoggerDisabled·p0.90:   0,062 us/op
+                 log4jLoggerDisabled·p0.95:   0,073 us/op
+                 log4jLoggerDisabled·p0.99:   0,107 us/op
+                 log4jLoggerDisabled·p0.999:  0,305 us/op
+                 log4jLoggerDisabled·p0.9999: 7,510 us/op
+                 log4jLoggerDisabled·p1.00:   12,416 us/op
+
+Iteration   5: 0,054 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,004 us/op
+                 log4jLoggerDisabled·p0.50:   0,049 us/op
+                 log4jLoggerDisabled·p0.90:   0,065 us/op
+                 log4jLoggerDisabled·p0.95:   0,080 us/op
+                 log4jLoggerDisabled·p0.99:   0,116 us/op
+                 log4jLoggerDisabled·p0.999:  0,249 us/op
+                 log4jLoggerDisabled·p0.9999: 7,644 us/op
+                 log4jLoggerDisabled·p1.00:   32,256 us/op
+
+Iteration   6: 0,056 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,040 us/op
+                 log4jLoggerDisabled·p0.50:   0,049 us/op
+                 log4jLoggerDisabled·p0.90:   0,068 us/op
+                 log4jLoggerDisabled·p0.95:   0,080 us/op
+                 log4jLoggerDisabled·p0.99:   0,123 us/op
+                 log4jLoggerDisabled·p0.999:  0,293 us/op
+                 log4jLoggerDisabled·p0.9999: 9,090 us/op
+                 log4jLoggerDisabled·p1.00:   52,736 us/op
+
+Iteration   7: 0,055 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,001 us/op
+                 log4jLoggerDisabled·p0.50:   0,050 us/op
+                 log4jLoggerDisabled·p0.90:   0,070 us/op
+                 log4jLoggerDisabled·p0.95:   0,080 us/op
+                 log4jLoggerDisabled·p0.99:   0,124 us/op
+                 log4jLoggerDisabled·p0.999:  0,258 us/op
+                 log4jLoggerDisabled·p0.9999: 2,503 us/op
+                 log4jLoggerDisabled·p1.00:   10,928 us/op
+
+Iteration   8: 0,057 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,022 us/op
+                 log4jLoggerDisabled·p0.50:   0,049 us/op
+                 log4jLoggerDisabled·p0.90:   0,071 us/op
+                 log4jLoggerDisabled·p0.95:   0,086 us/op
+                 log4jLoggerDisabled·p0.99:   0,127 us/op
+                 log4jLoggerDisabled·p0.999:  0,372 us/op
+                 log4jLoggerDisabled·p0.9999: 8,987 us/op
+                 log4jLoggerDisabled·p1.00:   35,136 us/op
+
+Iteration   9: 0,057 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,040 us/op
+                 log4jLoggerDisabled·p0.50:   0,050 us/op
+                 log4jLoggerDisabled·p0.90:   0,072 us/op
+                 log4jLoggerDisabled·p0.95:   0,086 us/op
+                 log4jLoggerDisabled·p0.99:   0,123 us/op
+                 log4jLoggerDisabled·p0.999:  0,305 us/op
+                 log4jLoggerDisabled·p0.9999: 6,950 us/op
+                 log4jLoggerDisabled·p1.00:   59,712 us/op
+
+Iteration  10: 0,056 ±(99.9%) 0,001 us/op
+                 log4jLoggerDisabled·p0.00:   0,009 us/op
+                 log4jLoggerDisabled·p0.50:   0,049 us/op
+                 log4jLoggerDisabled·p0.90:   0,068 us/op
+                 log4jLoggerDisabled·p0.95:   0,080 us/op
+                 log4jLoggerDisabled·p0.99:   0,122 us/op
+                 log4jLoggerDisabled·p0.999:  0,317 us/op
+                 log4jLoggerDisabled·p0.9999: 6,352 us/op
+                 log4jLoggerDisabled·p1.00:   46,272 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.log4jLoggerDisabled":
+  N = 2738895
+  mean =      0,055 ±(99.9%) 0,001 us/op
+
+  Histogram, us/op:
+    [  0,000,  25,000) = 2738879 
+    [ 25,000,  50,000) = 12 
+    [ 50,000,  75,000) = 3 
+    [ 75,000, 100,000) = 0 
+    [100,000, 125,000) = 0 
+    [125,000, 150,000) = 0 
+    [150,000, 175,000) = 0 
+    [175,000, 200,000) = 0 
+    [200,000, 225,000) = 0 
+    [225,000, 250,000) = 0 
+    [250,000, 275,000) = 1 
+
+  Percentiles, us/op:
+      p(0,0000) =      0,001 us/op
+     p(50,0000) =      0,049 us/op
+     p(90,0000) =      0,066 us/op
+     p(95,0000) =      0,078 us/op
+     p(99,0000) =      0,118 us/op
+     p(99,9000) =      0,293 us/op
+     p(99,9900) =      7,704 us/op
+     p(99,9990) =     19,641 us/op
+     p(99,9999) =     60,330 us/op
+    p(100,0000) =    252,672 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.log4jLoggerThrowable
+
+# Run progress: 50,00% complete, ETA 00:15:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 31,960 ±(99.9%) 0,627 us/op
+# Warmup Iteration   2: 28,681 ±(99.9%) 0,222 us/op
+# Warmup Iteration   3: 28,380 ±(99.9%) 0,105 us/op
+# Warmup Iteration   4: 28,784 ±(99.9%) 0,103 us/op
+# Warmup Iteration   5: 27,917 ±(99.9%) 0,096 us/op
+Iteration   1: 28,005 ±(99.9%) 0,095 us/op
+                 log4jLoggerThrowable·p0.00:   21,568 us/op
+                 log4jLoggerThrowable·p0.50:   25,248 us/op
+                 log4jLoggerThrowable·p0.90:   37,120 us/op
+                 log4jLoggerThrowable·p0.95:   47,680 us/op
+                 log4jLoggerThrowable·p0.99:   66,816 us/op
+                 log4jLoggerThrowable·p0.999:  100,260 us/op
+                 log4jLoggerThrowable·p0.9999: 200,996 us/op
+                 log4jLoggerThrowable·p1.00:   1388,544 us/op
+
+Iteration   2: 28,530 ±(99.9%) 0,115 us/op
+                 log4jLoggerThrowable·p0.00:   21,600 us/op
+                 log4jLoggerThrowable·p0.50:   25,312 us/op
+                 log4jLoggerThrowable·p0.90:   39,232 us/op
+                 log4jLoggerThrowable·p0.95:   48,000 us/op
+                 log4jLoggerThrowable·p0.99:   70,656 us/op
+                 log4jLoggerThrowable·p0.999:  106,678 us/op
+                 log4jLoggerThrowable·p0.9999: 229,015 us/op
+                 log4jLoggerThrowable·p1.00:   2539,520 us/op
+
+Iteration   3: 28,651 ±(99.9%) 0,106 us/op
+                 log4jLoggerThrowable·p0.00:   21,600 us/op
+                 log4jLoggerThrowable·p0.50:   25,696 us/op
+                 log4jLoggerThrowable·p0.90:   39,232 us/op
+                 log4jLoggerThrowable·p0.95:   47,936 us/op
+                 log4jLoggerThrowable·p0.99:   66,816 us/op
+                 log4jLoggerThrowable·p0.999:  105,229 us/op
+                 log4jLoggerThrowable·p0.9999: 213,762 us/op
+                 log4jLoggerThrowable·p1.00:   1533,952 us/op
+
+Iteration   4: 28,381 ±(99.9%) 0,097 us/op
+                 log4jLoggerThrowable·p0.00:   21,632 us/op
+                 log4jLoggerThrowable·p0.50:   25,312 us/op
+                 log4jLoggerThrowable·p0.90:   37,952 us/op
+                 log4jLoggerThrowable·p0.95:   47,360 us/op
+                 log4jLoggerThrowable·p0.99:   62,529 us/op
+                 log4jLoggerThrowable·p0.999:  102,528 us/op
+                 log4jLoggerThrowable·p0.9999: 239,260 us/op
+                 log4jLoggerThrowable·p1.00:   1531,904 us/op
+
+Iteration   5: 27,046 ±(99.9%) 0,091 us/op
+                 log4jLoggerThrowable·p0.00:   21,376 us/op
+                 log4jLoggerThrowable·p0.50:   24,576 us/op
+                 log4jLoggerThrowable·p0.90:   35,008 us/op
+                 log4jLoggerThrowable·p0.95:   44,416 us/op
+                 log4jLoggerThrowable·p0.99:   52,736 us/op
+                 log4jLoggerThrowable·p0.999:  99,097 us/op
+                 log4jLoggerThrowable·p0.9999: 220,712 us/op
+                 log4jLoggerThrowable·p1.00:   1398,784 us/op
+
+Iteration   6: 26,998 ±(99.9%) 0,080 us/op
+                 log4jLoggerThrowable·p0.00:   21,472 us/op
+                 log4jLoggerThrowable·p0.50:   25,120 us/op
+                 log4jLoggerThrowable·p0.90:   32,448 us/op
+                 log4jLoggerThrowable·p0.95:   44,160 us/op
+                 log4jLoggerThrowable·p0.99:   52,800 us/op
+                 log4jLoggerThrowable·p0.999:  92,032 us/op
+                 log4jLoggerThrowable·p0.9999: 186,247 us/op
+                 log4jLoggerThrowable·p1.00:   1562,624 us/op
+
+Iteration   7: 26,787 ±(99.9%) 0,090 us/op
+                 log4jLoggerThrowable·p0.00:   21,312 us/op
+                 log4jLoggerThrowable·p0.50:   24,576 us/op
+                 log4jLoggerThrowable·p0.90:   32,576 us/op
+                 log4jLoggerThrowable·p0.95:   43,072 us/op
+                 log4jLoggerThrowable·p0.99:   54,208 us/op
+                 log4jLoggerThrowable·p0.999:  89,472 us/op
+                 log4jLoggerThrowable·p0.9999: 198,403 us/op
+                 log4jLoggerThrowable·p1.00:   1597,440 us/op
+
+Iteration   8: 26,820 ±(99.9%) 0,091 us/op
+                 log4jLoggerThrowable·p0.00:   21,216 us/op
+                 log4jLoggerThrowable·p0.50:   24,544 us/op
+                 log4jLoggerThrowable·p0.90:   32,192 us/op
+                 log4jLoggerThrowable·p0.95:   44,224 us/op
+                 log4jLoggerThrowable·p0.99:   55,808 us/op
+                 log4jLoggerThrowable·p0.999:  88,350 us/op
+                 log4jLoggerThrowable·p0.9999: 198,154 us/op
+                 log4jLoggerThrowable·p1.00:   2457,600 us/op
+
+Iteration   9: 27,084 ±(99.9%) 0,092 us/op
+                 log4jLoggerThrowable·p0.00:   21,056 us/op
+                 log4jLoggerThrowable·p0.50:   24,448 us/op
+                 log4jLoggerThrowable·p0.90:   35,520 us/op
+                 log4jLoggerThrowable·p0.95:   46,848 us/op
+                 log4jLoggerThrowable·p0.99:   58,688 us/op
+                 log4jLoggerThrowable·p0.999:  95,360 us/op
+                 log4jLoggerThrowable·p0.9999: 234,957 us/op
+                 log4jLoggerThrowable·p1.00:   1646,592 us/op
+
+Iteration  10: 26,980 ±(99.9%) 0,082 us/op
+                 log4jLoggerThrowable·p0.00:   21,632 us/op
+                 log4jLoggerThrowable·p0.50:   25,120 us/op
+                 log4jLoggerThrowable·p0.90:   32,096 us/op
+                 log4jLoggerThrowable·p0.95:   44,224 us/op
+                 log4jLoggerThrowable·p0.99:   52,800 us/op
+                 log4jLoggerThrowable·p0.999:  93,736 us/op
+                 log4jLoggerThrowable·p0.9999: 202,784 us/op
+                 log4jLoggerThrowable·p1.00:   1501,184 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.log4jLoggerThrowable":
+  N = 1811902
+  mean =     27,509 ±(99.9%) 0,030 us/op
+
+  Histogram, us/op:
+    [   0,000,  250,000) = 1811768 
+    [ 250,000,  500,000) = 42 
+    [ 500,000,  750,000) = 3 
+    [ 750,000, 1000,000) = 11 
+    [1000,000, 1250,000) = 34 
+    [1250,000, 1500,000) = 35 
+    [1500,000, 1750,000) = 7 
+    [1750,000, 2000,000) = 0 
+    [2000,000, 2250,000) = 0 
+    [2250,000, 2500,000) = 1 
+    [2500,000, 2750,000) = 1 
+
+  Percentiles, us/op:
+      p(0,0000) =     21,056 us/op
+     p(50,0000) =     25,088 us/op
+     p(90,0000) =     35,520 us/op
+     p(95,0000) =     46,912 us/op
+     p(99,0000) =     58,880 us/op
+     p(99,9000) =     98,176 us/op
+     p(99,9900) =    207,104 us/op
+     p(99,9990) =   1397,565 us/op
+     p(99,9999) =   2473,009 us/op
+    p(100,0000) =   2539,520 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.log4jLoggerWithoutParams
+
+# Run progress: 58,33% complete, ETA 00:12:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,943 ±(99.9%) 0,123 us/op
+# Warmup Iteration   2: 0,684 ±(99.9%) 0,005 us/op
+# Warmup Iteration   3: 0,696 ±(99.9%) 0,003 us/op
+# Warmup Iteration   4: 0,702 ±(99.9%) 0,007 us/op
+# Warmup Iteration   5: 0,715 ±(99.9%) 0,010 us/op
+Iteration   1: 0,761 ±(99.9%) 0,006 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,518 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,653 us/op
+                 log4jLoggerWithoutParams·p0.90:   1,130 us/op
+                 log4jLoggerWithoutParams·p0.95:   1,266 us/op
+                 log4jLoggerWithoutParams·p0.99:   2,024 us/op
+                 log4jLoggerWithoutParams·p0.999:  10,105 us/op
+                 log4jLoggerWithoutParams·p0.9999: 31,393 us/op
+                 log4jLoggerWithoutParams·p1.00:   243,200 us/op
+
+Iteration   2: 0,755 ±(99.9%) 0,010 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,498 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,648 us/op
+                 log4jLoggerWithoutParams·p0.90:   1,021 us/op
+                 log4jLoggerWithoutParams·p0.95:   1,236 us/op
+                 log4jLoggerWithoutParams·p0.99:   2,068 us/op
+                 log4jLoggerWithoutParams·p0.999:  11,103 us/op
+                 log4jLoggerWithoutParams·p0.9999: 48,095 us/op
+                 log4jLoggerWithoutParams·p1.00:   305,664 us/op
+
+Iteration   3: 0,669 ±(99.9%) 0,005 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,506 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,612 us/op
+                 log4jLoggerWithoutParams·p0.90:   0,794 us/op
+                 log4jLoggerWithoutParams·p0.95:   1,028 us/op
+                 log4jLoggerWithoutParams·p0.99:   1,348 us/op
+                 log4jLoggerWithoutParams·p0.999:  3,167 us/op
+                 log4jLoggerWithoutParams·p0.9999: 13,961 us/op
+                 log4jLoggerWithoutParams·p1.00:   308,224 us/op
+
+Iteration   4: 0,685 ±(99.9%) 0,008 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,504 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,624 us/op
+                 log4jLoggerWithoutParams·p0.90:   0,808 us/op
+                 log4jLoggerWithoutParams·p0.95:   1,102 us/op
+                 log4jLoggerWithoutParams·p0.99:   1,476 us/op
+                 log4jLoggerWithoutParams·p0.999:  3,897 us/op
+                 log4jLoggerWithoutParams·p0.9999: 17,295 us/op
+                 log4jLoggerWithoutParams·p1.00:   492,544 us/op
+
+Iteration   5: 0,695 ±(99.9%) 0,004 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,510 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,633 us/op
+                 log4jLoggerWithoutParams·p0.90:   0,811 us/op
+                 log4jLoggerWithoutParams·p0.95:   1,040 us/op
+                 log4jLoggerWithoutParams·p0.99:   1,384 us/op
+                 log4jLoggerWithoutParams·p0.999:  5,638 us/op
+                 log4jLoggerWithoutParams·p0.9999: 22,213 us/op
+                 log4jLoggerWithoutParams·p1.00:   93,312 us/op
+
+Iteration   6: 0,685 ±(99.9%) 0,004 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,517 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,634 us/op
+                 log4jLoggerWithoutParams·p0.90:   0,770 us/op
+                 log4jLoggerWithoutParams·p0.95:   0,940 us/op
+                 log4jLoggerWithoutParams·p0.99:   1,348 us/op
+                 log4jLoggerWithoutParams·p0.999:  3,964 us/op
+                 log4jLoggerWithoutParams·p0.9999: 18,065 us/op
+                 log4jLoggerWithoutParams·p1.00:   198,656 us/op
+
+Iteration   7: 0,691 ±(99.9%) 0,005 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,516 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,627 us/op
+                 log4jLoggerWithoutParams·p0.90:   0,800 us/op
+                 log4jLoggerWithoutParams·p0.95:   1,120 us/op
+                 log4jLoggerWithoutParams·p0.99:   1,344 us/op
+                 log4jLoggerWithoutParams·p0.999:  5,029 us/op
+                 log4jLoggerWithoutParams·p0.9999: 27,421 us/op
+                 log4jLoggerWithoutParams·p1.00:   170,752 us/op
+
+Iteration   8: 0,682 ±(99.9%) 0,005 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,513 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,610 us/op
+                 log4jLoggerWithoutParams·p0.90:   0,845 us/op
+                 log4jLoggerWithoutParams·p0.95:   1,090 us/op
+                 log4jLoggerWithoutParams·p0.99:   1,434 us/op
+                 log4jLoggerWithoutParams·p0.999:  4,512 us/op
+                 log4jLoggerWithoutParams·p0.9999: 21,864 us/op
+                 log4jLoggerWithoutParams·p1.00:   268,800 us/op
+
+Iteration   9: 0,690 ±(99.9%) 0,005 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,511 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,629 us/op
+                 log4jLoggerWithoutParams·p0.90:   0,800 us/op
+                 log4jLoggerWithoutParams·p0.95:   0,979 us/op
+                 log4jLoggerWithoutParams·p0.99:   1,328 us/op
+                 log4jLoggerWithoutParams·p0.999:  5,443 us/op
+                 log4jLoggerWithoutParams·p0.9999: 29,189 us/op
+                 log4jLoggerWithoutParams·p1.00:   276,992 us/op
+
+Iteration  10: 0,687 ±(99.9%) 0,005 us/op
+                 log4jLoggerWithoutParams·p0.00:   0,512 us/op
+                 log4jLoggerWithoutParams·p0.50:   0,623 us/op
+                 log4jLoggerWithoutParams·p0.90:   0,805 us/op
+                 log4jLoggerWithoutParams·p0.95:   1,072 us/op
+                 log4jLoggerWithoutParams·p0.99:   1,438 us/op
+                 log4jLoggerWithoutParams·p0.999:  4,087 us/op
+                 log4jLoggerWithoutParams·p0.9999: 19,387 us/op
+                 log4jLoggerWithoutParams·p1.00:   250,368 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.log4jLoggerWithoutParams":
+  N = 2429212
+  mean =      0,699 ±(99.9%) 0,002 us/op
+
+  Histogram, us/op:
+    [  0,000,  50,000) = 2429150 
+    [ 50,000, 100,000) = 43 
+    [100,000, 150,000) = 5 
+    [150,000, 200,000) = 3 
+    [200,000, 250,000) = 4 
+    [250,000, 300,000) = 4 
+    [300,000, 350,000) = 2 
+    [350,000, 400,000) = 0 
+    [400,000, 450,000) = 0 
+
+  Percentiles, us/op:
+      p(0,0000) =      0,498 us/op
+     p(50,0000) =      0,628 us/op
+     p(90,0000) =      0,834 us/op
+     p(95,0000) =      1,132 us/op
+     p(99,0000) =      1,490 us/op
+     p(99,9000) =      5,624 us/op
+     p(99,9900) =     25,773 us/op
+     p(99,9990) =     88,014 us/op
+     p(99,9999) =    307,125 us/op
+    p(100,0000) =    492,544 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.logbackLogger
+
+# Run progress: 66,67% complete, ETA 00:10:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,904 ±(99.9%) 0,115 us/op
+# Warmup Iteration   2: 1,691 ±(99.9%) 0,072 us/op
+# Warmup Iteration   3: 1,654 ±(99.9%) 0,068 us/op
+# Warmup Iteration   4: 1,635 ±(99.9%) 0,056 us/op
+# Warmup Iteration   5: 1,619 ±(99.9%) 0,058 us/op
+Iteration   1: 1,671 ±(99.9%) 0,076 us/op
+                 logbackLogger·p0.00:   1,104 us/op
+                 logbackLogger·p0.50:   1,376 us/op
+                 logbackLogger·p0.90:   2,216 us/op
+                 logbackLogger·p0.95:   2,568 us/op
+                 logbackLogger·p0.99:   4,142 us/op
+                 logbackLogger·p0.999:  16,187 us/op
+                 logbackLogger·p0.9999: 49,053 us/op
+                 logbackLogger·p1.00:   1959,936 us/op
+
+Iteration   2: 1,674 ±(99.9%) 0,078 us/op
+                 logbackLogger·p0.00:   1,110 us/op
+                 logbackLogger·p0.50:   1,402 us/op
+                 logbackLogger·p0.90:   2,046 us/op
+                 logbackLogger·p0.95:   2,584 us/op
+                 logbackLogger·p0.99:   4,480 us/op
+                 logbackLogger·p0.999:  18,584 us/op
+                 logbackLogger·p0.9999: 56,561 us/op
+                 logbackLogger·p1.00:   3186,688 us/op
+
+Iteration   3: 1,700 ±(99.9%) 0,073 us/op
+                 logbackLogger·p0.00:   1,110 us/op
+                 logbackLogger·p0.50:   1,372 us/op
+                 logbackLogger·p0.90:   2,368 us/op
+                 logbackLogger·p0.95:   2,792 us/op
+                 logbackLogger·p0.99:   4,792 us/op
+                 logbackLogger·p0.999:  16,675 us/op
+                 logbackLogger·p0.9999: 52,416 us/op
+                 logbackLogger·p1.00:   1570,816 us/op
+
+Iteration   4: 1,653 ±(99.9%) 0,065 us/op
+                 logbackLogger·p0.00:   1,108 us/op
+                 logbackLogger·p0.50:   1,404 us/op
+                 logbackLogger·p0.90:   2,020 us/op
+                 logbackLogger·p0.95:   2,568 us/op
+                 logbackLogger·p0.99:   4,408 us/op
+                 logbackLogger·p0.999:  15,600 us/op
+                 logbackLogger·p0.9999: 49,383 us/op
+                 logbackLogger·p1.00:   1611,776 us/op
+
+Iteration   5: 1,668 ±(99.9%) 0,060 us/op
+                 logbackLogger·p0.00:   1,118 us/op
+                 logbackLogger·p0.50:   1,402 us/op
+                 logbackLogger·p0.90:   2,140 us/op
+                 logbackLogger·p0.95:   2,596 us/op
+                 logbackLogger·p0.99:   4,280 us/op
+                 logbackLogger·p0.999:  18,603 us/op
+                 logbackLogger·p0.9999: 64,243 us/op
+                 logbackLogger·p1.00:   1574,912 us/op
+
+Iteration   6: 1,666 ±(99.9%) 0,065 us/op
+                 logbackLogger·p0.00:   1,112 us/op
+                 logbackLogger·p0.50:   1,430 us/op
+                 logbackLogger·p0.90:   1,993 us/op
+                 logbackLogger·p0.95:   2,600 us/op
+                 logbackLogger·p0.99:   4,433 us/op
+                 logbackLogger·p0.999:  17,655 us/op
+                 logbackLogger·p0.9999: 51,710 us/op
+                 logbackLogger·p1.00:   1855,488 us/op
+
+Iteration   7: 1,680 ±(99.9%) 0,052 us/op
+                 logbackLogger·p0.00:   1,106 us/op
+                 logbackLogger·p0.50:   1,414 us/op
+                 logbackLogger·p0.90:   2,336 us/op
+                 logbackLogger·p0.95:   2,724 us/op
+                 logbackLogger·p0.99:   4,520 us/op
+                 logbackLogger·p0.999:  17,744 us/op
+                 logbackLogger·p0.9999: 50,625 us/op
+                 logbackLogger·p1.00:   1570,816 us/op
+
+Iteration   8: 1,617 ±(99.9%) 0,056 us/op
+                 logbackLogger·p0.00:   1,108 us/op
+                 logbackLogger·p0.50:   1,374 us/op
+                 logbackLogger·p0.90:   2,108 us/op
+                 logbackLogger·p0.95:   2,548 us/op
+                 logbackLogger·p0.99:   4,264 us/op
+                 logbackLogger·p0.999:  15,200 us/op
+                 logbackLogger·p0.9999: 47,202 us/op
+                 logbackLogger·p1.00:   1806,336 us/op
+
+Iteration   9: 1,665 ±(99.9%) 0,069 us/op
+                 logbackLogger·p0.00:   1,112 us/op
+                 logbackLogger·p0.50:   1,400 us/op
+                 logbackLogger·p0.90:   2,016 us/op
+                 logbackLogger·p0.95:   2,596 us/op
+                 logbackLogger·p0.99:   4,576 us/op
+                 logbackLogger·p0.999:  17,494 us/op
+                 logbackLogger·p0.9999: 52,299 us/op
+                 logbackLogger·p1.00:   1779,712 us/op
+
+Iteration  10: 1,697 ±(99.9%) 0,068 us/op
+                 logbackLogger·p0.00:   1,106 us/op
+                 logbackLogger·p0.50:   1,400 us/op
+                 logbackLogger·p0.90:   2,152 us/op
+                 logbackLogger·p0.95:   2,656 us/op
+                 logbackLogger·p0.99:   4,720 us/op
+                 logbackLogger·p0.999:  19,095 us/op
+                 logbackLogger·p0.9999: 57,702 us/op
+                 logbackLogger·p1.00:   2252,800 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.logbackLogger":
+  N = 2011832
+  mean =      1,669 ±(99.9%) 0,021 us/op
+
+  Histogram, us/op:
+    [   0,000,  250,000) = 2011740 
+    [ 250,000,  500,000) = 3 
+    [ 500,000,  750,000) = 0 
+    [ 750,000, 1000,000) = 13 
+    [1000,000, 1250,000) = 30 
+    [1250,000, 1500,000) = 24 
+    [1500,000, 1750,000) = 14 
+    [1750,000, 2000,000) = 6 
+    [2000,000, 2250,000) = 0 
+    [2250,000, 2500,000) = 1 
+    [2500,000, 2750,000) = 0 
+    [2750,000, 3000,000) = 0 
+    [3000,000, 3250,000) = 1 
+    [3250,000, 3500,000) = 0 
+    [3500,000, 3750,000) = 0 
+
+  Percentiles, us/op:
+      p(0,0000) =      1,104 us/op
+     p(50,0000) =      1,398 us/op
+     p(90,0000) =      2,144 us/op
+     p(95,0000) =      2,616 us/op
+     p(99,0000) =      4,504 us/op
+     p(99,9000) =     17,152 us/op
+     p(99,9900) =     52,713 us/op
+     p(99,9990) =   1560,334 us/op
+     p(99,9999) =   2249,335 us/op
+    p(100,0000) =   3186,688 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.logbackLoggerDisabled
+
+# Run progress: 75,00% complete, ETA 00:07:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,058 ±(99.9%) 0,009 us/op
+# Warmup Iteration   2: 0,057 ±(99.9%) 0,003 us/op
+# Warmup Iteration   3: 0,058 ±(99.9%) 0,001 us/op
+# Warmup Iteration   4: 0,057 ±(99.9%) 0,001 us/op
+# Warmup Iteration   5: 0,059 ±(99.9%) 0,002 us/op
+Iteration   1: 0,056 ±(99.9%) 0,001 us/op
+                 logbackLoggerDisabled·p0.00:   0,009 us/op
+                 logbackLoggerDisabled·p0.50:   0,050 us/op
+                 logbackLoggerDisabled·p0.90:   0,068 us/op
+                 logbackLoggerDisabled·p0.95:   0,080 us/op
+                 logbackLoggerDisabled·p0.99:   0,120 us/op
+                 logbackLoggerDisabled·p0.999:  0,333 us/op
+                 logbackLoggerDisabled·p0.9999: 7,590 us/op
+                 logbackLoggerDisabled·p1.00:   52,096 us/op
+
+Iteration   2: 0,057 ±(99.9%) 0,001 us/op
+                 logbackLoggerDisabled·p0.00:   0,028 us/op
+                 logbackLoggerDisabled·p0.50:   0,052 us/op
+                 logbackLoggerDisabled·p0.90:   0,065 us/op
+                 logbackLoggerDisabled·p0.95:   0,078 us/op
+                 logbackLoggerDisabled·p0.99:   0,120 us/op
+                 logbackLoggerDisabled·p0.999:  0,310 us/op
+                 logbackLoggerDisabled·p0.9999: 8,066 us/op
+                 logbackLoggerDisabled·p1.00:   26,336 us/op
+
+Iteration   3: 0,058 ±(99.9%) 0,001 us/op
+                 logbackLoggerDisabled·p0.00:   0,041 us/op
+                 logbackLoggerDisabled·p0.50:   0,051 us/op
+                 logbackLoggerDisabled·p0.90:   0,073 us/op
+                 logbackLoggerDisabled·p0.95:   0,088 us/op
+                 logbackLoggerDisabled·p0.99:   0,127 us/op
+                 logbackLoggerDisabled·p0.999:  0,319 us/op
+                 logbackLoggerDisabled·p0.9999: 9,345 us/op
+                 logbackLoggerDisabled·p1.00:   51,200 us/op
+
+Iteration   4: 0,057 ±(99.9%) 0,001 us/op
+                 logbackLoggerDisabled·p0.00:   0,003 us/op
+                 logbackLoggerDisabled·p0.50:   0,051 us/op
+                 logbackLoggerDisabled·p0.90:   0,070 us/op
+                 logbackLoggerDisabled·p0.95:   0,083 us/op
+                 logbackLoggerDisabled·p0.99:   0,125 us/op
+                 logbackLoggerDisabled·p0.999:  0,283 us/op
+                 logbackLoggerDisabled·p0.9999: 7,154 us/op
+                 logbackLoggerDisabled·p1.00:   24,960 us/op
+
+Iteration   5: 0,057 ±(99.9%) 0,001 us/op
+                 logbackLoggerDisabled·p0.00:   0,014 us/op
+                 logbackLoggerDisabled·p0.50:   0,050 us/op
+                 logbackLoggerDisabled·p0.90:   0,070 us/op
+                 logbackLoggerDisabled·p0.95:   0,085 us/op
+                 logbackLoggerDisabled·p0.99:   0,125 us/op
+                 logbackLoggerDisabled·p0.999:  0,336 us/op
+                 logbackLoggerDisabled·p0.9999: 7,906 us/op
+                 logbackLoggerDisabled·p1.00:   44,288 us/op
+
+Iteration   6: 0,058 ±(99.9%) 0,001 us/op
+                 logbackLoggerDisabled·p0.00:   0,041 us/op
+                 logbackLoggerDisabled·p0.50:   0,051 us/op
+                 logbackLoggerDisabled·p0.90:   0,070 us/op
+                 logbackLoggerDisabled·p0.95:   0,083 us/op
+                 logbackLoggerDisabled·p0.99:   0,125 us/op
+                 logbackLoggerDisabled·p0.999:  0,335 us/op
+                 logbackLoggerDisabled·p0.9999: 9,665 us/op
+                 logbackLoggerDisabled·p1.00:   40,512 us/op
+
+Iteration   7: 0,058 ±(99.9%) 0,003 us/op
+                 logbackLoggerDisabled·p0.00:   0,021 us/op
+                 logbackLoggerDisabled·p0.50:   0,051 us/op
+                 logbackLoggerDisabled·p0.90:   0,070 us/op
+                 logbackLoggerDisabled·p0.95:   0,083 us/op
+                 logbackLoggerDisabled·p0.99:   0,123 us/op
+                 logbackLoggerDisabled·p0.999:  0,291 us/op
+                 logbackLoggerDisabled·p0.9999: 8,182 us/op
+                 logbackLoggerDisabled·p1.00:   238,592 us/op
+
+Iteration   8: 0,058 ±(99.9%) 0,003 us/op
+                 logbackLoggerDisabled·p0.00:   0,006 us/op
+                 logbackLoggerDisabled·p0.50:   0,050 us/op
+                 logbackLoggerDisabled·p0.90:   0,069 us/op
+                 logbackLoggerDisabled·p0.95:   0,083 us/op
+                 logbackLoggerDisabled·p0.99:   0,125 us/op
+                 logbackLoggerDisabled·p0.999:  0,332 us/op
+                 logbackLoggerDisabled·p0.9999: 6,613 us/op
+                 logbackLoggerDisabled·p1.00:   211,456 us/op
+
+Iteration   9: 0,057 ±(99.9%) 0,001 us/op
+                 logbackLoggerDisabled·p0.00:   0,041 us/op
+                 logbackLoggerDisabled·p0.50:   0,051 us/op
+                 logbackLoggerDisabled·p0.90:   0,070 us/op
+                 logbackLoggerDisabled·p0.95:   0,082 us/op
+                 logbackLoggerDisabled·p0.99:   0,123 us/op
+                 logbackLoggerDisabled·p0.999:  0,290 us/op
+                 logbackLoggerDisabled·p0.9999: 5,727 us/op
+                 logbackLoggerDisabled·p1.00:   40,896 us/op
+
+Iteration  10: 0,057 ±(99.9%) 0,001 us/op
+                 logbackLoggerDisabled·p0.00:   0,015 us/op
+                 logbackLoggerDisabled·p0.50:   0,051 us/op
+                 logbackLoggerDisabled·p0.90:   0,070 us/op
+                 logbackLoggerDisabled·p0.95:   0,083 us/op
+                 logbackLoggerDisabled·p0.99:   0,123 us/op
+                 logbackLoggerDisabled·p0.999:  0,300 us/op
+                 logbackLoggerDisabled·p0.9999: 7,917 us/op
+                 logbackLoggerDisabled·p1.00:   23,200 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.logbackLoggerDisabled":
+  N = 2917169
+  mean =      0,057 ±(99.9%) 0,001 us/op
+
+  Histogram, us/op:
+    [  0,000,  25,000) = 2917145 
+    [ 25,000,  50,000) = 19 
+    [ 50,000,  75,000) = 2 
+    [ 75,000, 100,000) = 0 
+    [100,000, 125,000) = 0 
+    [125,000, 150,000) = 0 
+    [150,000, 175,000) = 0 
+    [175,000, 200,000) = 1 
+    [200,000, 225,000) = 1 
+    [225,000, 250,000) = 1 
+    [250,000, 275,000) = 0 
+
+  Percentiles, us/op:
+      p(0,0000) =      0,003 us/op
+     p(50,0000) =      0,051 us/op
+     p(90,0000) =      0,070 us/op
+     p(95,0000) =      0,082 us/op
+     p(99,0000) =      0,124 us/op
+     p(99,9000) =      0,311 us/op
+     p(99,9900) =      7,706 us/op
+     p(99,9990) =     24,533 us/op
+     p(99,9999) =    178,350 us/op
+    p(100,0000) =    238,592 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.logbackLoggerThrowable
+
+# Run progress: 83,33% complete, ETA 00:05:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 8,474 ±(99.9%) 0,241 us/op
+# Warmup Iteration   2: 7,277 ±(99.9%) 0,083 us/op
+# Warmup Iteration   3: 7,280 ±(99.9%) 0,077 us/op
+# Warmup Iteration   4: 7,310 ±(99.9%) 0,089 us/op
+# Warmup Iteration   5: 7,129 ±(99.9%) 0,173 us/op
+Iteration   1: 6,907 ±(99.9%) 0,158 us/op
+                 logbackLoggerThrowable·p0.00:   4,928 us/op
+                 logbackLoggerThrowable·p0.50:   5,992 us/op
+                 logbackLoggerThrowable·p0.90:   8,432 us/op
+                 logbackLoggerThrowable·p0.95:   10,544 us/op
+                 logbackLoggerThrowable·p0.99:   13,616 us/op
+                 logbackLoggerThrowable·p0.999:  32,378 us/op
+                 logbackLoggerThrowable·p0.9999: 1285,911 us/op
+                 logbackLoggerThrowable·p1.00:   1720,320 us/op
+
+Iteration   2: 7,006 ±(99.9%) 0,170 us/op
+                 logbackLoggerThrowable·p0.00:   4,784 us/op
+                 logbackLoggerThrowable·p0.50:   5,864 us/op
+                 logbackLoggerThrowable·p0.90:   9,232 us/op
+                 logbackLoggerThrowable·p0.95:   10,656 us/op
+                 logbackLoggerThrowable·p0.99:   15,968 us/op
+                 logbackLoggerThrowable·p0.999:  36,018 us/op
+                 logbackLoggerThrowable·p0.9999: 1325,829 us/op
+                 logbackLoggerThrowable·p1.00:   2449,408 us/op
+
+Iteration   3: 6,784 ±(99.9%) 0,144 us/op
+                 logbackLoggerThrowable·p0.00:   4,744 us/op
+                 logbackLoggerThrowable·p0.50:   5,768 us/op
+                 logbackLoggerThrowable·p0.90:   8,880 us/op
+                 logbackLoggerThrowable·p0.95:   10,576 us/op
+                 logbackLoggerThrowable·p0.99:   14,784 us/op
+                 logbackLoggerThrowable·p0.999:  30,238 us/op
+                 logbackLoggerThrowable·p0.9999: 1277,112 us/op
+                 logbackLoggerThrowable·p1.00:   1730,560 us/op
+
+Iteration   4: 6,969 ±(99.9%) 0,155 us/op
+                 logbackLoggerThrowable·p0.00:   4,776 us/op
+                 logbackLoggerThrowable·p0.50:   5,864 us/op
+                 logbackLoggerThrowable·p0.90:   9,488 us/op
+                 logbackLoggerThrowable·p0.95:   10,752 us/op
+                 logbackLoggerThrowable·p0.99:   15,296 us/op
+                 logbackLoggerThrowable·p0.999:  30,964 us/op
+                 logbackLoggerThrowable·p0.9999: 1305,391 us/op
+                 logbackLoggerThrowable·p1.00:   1925,120 us/op
+
+Iteration   5: 7,213 ±(99.9%) 0,165 us/op
+                 logbackLoggerThrowable·p0.00:   4,776 us/op
+                 logbackLoggerThrowable·p0.50:   5,896 us/op
+                 logbackLoggerThrowable·p0.90:   10,000 us/op
+                 logbackLoggerThrowable·p0.95:   11,312 us/op
+                 logbackLoggerThrowable·p0.99:   17,280 us/op
+                 logbackLoggerThrowable·p0.999:  37,211 us/op
+                 logbackLoggerThrowable·p0.9999: 1366,452 us/op
+                 logbackLoggerThrowable·p1.00:   1658,880 us/op
+
+Iteration   6: 7,058 ±(99.9%) 0,165 us/op
+                 logbackLoggerThrowable·p0.00:   4,752 us/op
+                 logbackLoggerThrowable·p0.50:   5,888 us/op
+                 logbackLoggerThrowable·p0.90:   9,664 us/op
+                 logbackLoggerThrowable·p0.95:   10,864 us/op
+                 logbackLoggerThrowable·p0.99:   16,000 us/op
+                 logbackLoggerThrowable·p0.999:  31,357 us/op
+                 logbackLoggerThrowable·p0.9999: 1295,545 us/op
+                 logbackLoggerThrowable·p1.00:   2605,056 us/op
+
+Iteration   7: 7,144 ±(99.9%) 0,175 us/op
+                 logbackLoggerThrowable·p0.00:   4,768 us/op
+                 logbackLoggerThrowable·p0.50:   5,864 us/op
+                 logbackLoggerThrowable·p0.90:   9,648 us/op
+                 logbackLoggerThrowable·p0.95:   11,024 us/op
+                 logbackLoggerThrowable·p0.99:   16,640 us/op
+                 logbackLoggerThrowable·p0.999:  32,217 us/op
+                 logbackLoggerThrowable·p0.9999: 1376,478 us/op
+                 logbackLoggerThrowable·p1.00:   1982,464 us/op
+
+Iteration   8: 6,726 ±(99.9%) 0,119 us/op
+                 logbackLoggerThrowable·p0.00:   4,648 us/op
+                 logbackLoggerThrowable·p0.50:   5,792 us/op
+                 logbackLoggerThrowable·p0.90:   9,136 us/op
+                 logbackLoggerThrowable·p0.95:   10,672 us/op
+                 logbackLoggerThrowable·p0.99:   15,168 us/op
+                 logbackLoggerThrowable·p0.999:  29,507 us/op
+                 logbackLoggerThrowable·p0.9999: 1084,027 us/op
+                 logbackLoggerThrowable·p1.00:   2588,672 us/op
+
+Iteration   9: 7,041 ±(99.9%) 0,172 us/op
+                 logbackLoggerThrowable·p0.00:   4,784 us/op
+                 logbackLoggerThrowable·p0.50:   5,784 us/op
+                 logbackLoggerThrowable·p0.90:   9,360 us/op
+                 logbackLoggerThrowable·p0.95:   10,864 us/op
+                 logbackLoggerThrowable·p0.99:   16,368 us/op
+                 logbackLoggerThrowable·p0.999:  32,637 us/op
+                 logbackLoggerThrowable·p0.9999: 1402,593 us/op
+                 logbackLoggerThrowable·p1.00:   2117,632 us/op
+
+Iteration  10: 7,049 ±(99.9%) 0,175 us/op
+                 logbackLoggerThrowable·p0.00:   4,792 us/op
+                 logbackLoggerThrowable·p0.50:   5,872 us/op
+                 logbackLoggerThrowable·p0.90:   9,376 us/op
+                 logbackLoggerThrowable·p0.95:   10,896 us/op
+                 logbackLoggerThrowable·p0.99:   16,064 us/op
+                 logbackLoggerThrowable·p0.999:  32,658 us/op
+                 logbackLoggerThrowable·p0.9999: 1293,971 us/op
+                 logbackLoggerThrowable·p1.00:   2584,576 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.logbackLoggerThrowable":
+  N = 1851508
+  mean =      6,988 ±(99.9%) 0,051 us/op
+
+  Histogram, us/op:
+    [   0,000,  250,000) = 1851001 
+    [ 250,000,  500,000) = 6 
+    [ 500,000,  750,000) = 2 
+    [ 750,000, 1000,000) = 79 
+    [1000,000, 1250,000) = 189 
+    [1250,000, 1500,000) = 168 
+    [1500,000, 1750,000) = 51 
+    [1750,000, 2000,000) = 5 
+    [2000,000, 2250,000) = 2 
+    [2250,000, 2500,000) = 2 
+    [2500,000, 2750,000) = 3 
+
+  Percentiles, us/op:
+      p(0,0000) =      4,648 us/op
+     p(50,0000) =      5,864 us/op
+     p(90,0000) =      9,360 us/op
+     p(95,0000) =     10,768 us/op
+     p(99,0000) =     15,824 us/op
+     p(99,9000) =     32,352 us/op
+     p(99,9900) =   1308,672 us/op
+     p(99,9990) =   1686,188 us/op
+     p(99,9999) =   2591,105 us/op
+    p(100,0000) =   2605,056 us/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.10, Java HotSpot(TM) 64-Bit Server VM, 11.0.10+8-LTS-162
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/bin/java
+# VM options: --illegal-access=permit -Djava.lang.invoke.stringConcat=BC_SB
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.multicatch.LoggerBenchmark.logbackLoggerWithoutParams
+
+# Run progress: 91,67% complete, ETA 00:02:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,192 ±(99.9%) 0,128 us/op
+# Warmup Iteration   2: 0,934 ±(99.9%) 0,016 us/op
+# Warmup Iteration   3: 0,936 ±(99.9%) 0,023 us/op
+# Warmup Iteration   4: 0,937 ±(99.9%) 0,022 us/op
+# Warmup Iteration   5: 0,957 ±(99.9%) 0,031 us/op
+Iteration   1: 0,950 ±(99.9%) 0,029 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,657 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,840 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,110 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,484 us/op
+                 logbackLoggerWithoutParams·p0.99:   2,022 us/op
+                 logbackLoggerWithoutParams·p0.999:  8,959 us/op
+                 logbackLoggerWithoutParams·p0.9999: 22,632 us/op
+                 logbackLoggerWithoutParams·p1.00:   1437,696 us/op
+
+Iteration   2: 0,968 ±(99.9%) 0,030 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,670 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,836 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,242 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,520 us/op
+                 logbackLoggerWithoutParams·p0.99:   2,132 us/op
+                 logbackLoggerWithoutParams·p0.999:  9,348 us/op
+                 logbackLoggerWithoutParams·p0.9999: 30,122 us/op
+                 logbackLoggerWithoutParams·p1.00:   1599,488 us/op
+
+Iteration   3: 0,972 ±(99.9%) 0,031 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,670 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,832 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,222 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,548 us/op
+                 logbackLoggerWithoutParams·p0.99:   2,116 us/op
+                 logbackLoggerWithoutParams·p0.999:  8,688 us/op
+                 logbackLoggerWithoutParams·p0.9999: 24,859 us/op
+                 logbackLoggerWithoutParams·p1.00:   1343,488 us/op
+
+Iteration   4: 0,961 ±(99.9%) 0,032 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,668 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,841 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,174 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,504 us/op
+                 logbackLoggerWithoutParams·p0.99:   2,108 us/op
+                 logbackLoggerWithoutParams·p0.999:  8,213 us/op
+                 logbackLoggerWithoutParams·p0.9999: 26,882 us/op
+                 logbackLoggerWithoutParams·p1.00:   1574,912 us/op
+
+Iteration   5: 0,976 ±(99.9%) 0,042 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,667 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,835 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,190 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,526 us/op
+                 logbackLoggerWithoutParams·p0.99:   2,000 us/op
+                 logbackLoggerWithoutParams·p0.999:  8,944 us/op
+                 logbackLoggerWithoutParams·p0.9999: 28,948 us/op
+                 logbackLoggerWithoutParams·p1.00:   1818,624 us/op
+
+Iteration   6: 0,964 ±(99.9%) 0,031 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,670 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,831 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,200 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,528 us/op
+                 logbackLoggerWithoutParams·p0.99:   2,476 us/op
+                 logbackLoggerWithoutParams·p0.999:  8,155 us/op
+                 logbackLoggerWithoutParams·p0.9999: 26,022 us/op
+                 logbackLoggerWithoutParams·p1.00:   1933,312 us/op
+
+Iteration   7: 0,958 ±(99.9%) 0,022 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,665 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,856 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,192 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,530 us/op
+                 logbackLoggerWithoutParams·p0.99:   1,982 us/op
+                 logbackLoggerWithoutParams·p0.999:  8,281 us/op
+                 logbackLoggerWithoutParams·p0.9999: 21,818 us/op
+                 logbackLoggerWithoutParams·p1.00:   1517,568 us/op
+
+Iteration   8: 0,970 ±(99.9%) 0,033 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,671 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,840 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,242 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,506 us/op
+                 logbackLoggerWithoutParams·p0.99:   2,100 us/op
+                 logbackLoggerWithoutParams·p0.999:  8,403 us/op
+                 logbackLoggerWithoutParams·p0.9999: 21,530 us/op
+                 logbackLoggerWithoutParams·p1.00:   1406,976 us/op
+
+Iteration   9: 0,933 ±(99.9%) 0,021 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,663 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,828 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,178 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,496 us/op
+                 logbackLoggerWithoutParams·p0.99:   2,240 us/op
+                 logbackLoggerWithoutParams·p0.999:  8,093 us/op
+                 logbackLoggerWithoutParams·p0.9999: 21,344 us/op
+                 logbackLoggerWithoutParams·p1.00:   1863,680 us/op
+
+Iteration  10: 0,936 ±(99.9%) 0,034 us/op
+                 logbackLoggerWithoutParams·p0.00:   0,678 us/op
+                 logbackLoggerWithoutParams·p0.50:   0,832 us/op
+                 logbackLoggerWithoutParams·p0.90:   1,050 us/op
+                 logbackLoggerWithoutParams·p0.95:   1,462 us/op
+                 logbackLoggerWithoutParams·p0.99:   1,996 us/op
+                 logbackLoggerWithoutParams·p0.999:  7,385 us/op
+                 logbackLoggerWithoutParams·p0.9999: 18,024 us/op
+                 logbackLoggerWithoutParams·p1.00:   2838,528 us/op
+
+
+
+Result "io.github.multicatch.LoggerBenchmark.logbackLoggerWithoutParams":
+  N = 3499681
+  mean =      0,959 ±(99.9%) 0,010 us/op
+
+  Histogram, us/op:
+    [   0,000,  250,000) = 3499620 
+    [ 250,000,  500,000) = 0 
+    [ 500,000,  750,000) = 0 
+    [ 750,000, 1000,000) = 9 
+    [1000,000, 1250,000) = 20 
+    [1250,000, 1500,000) = 20 
+    [1500,000, 1750,000) = 8 
+    [1750,000, 2000,000) = 3 
+    [2000,000, 2250,000) = 0 
+    [2250,000, 2500,000) = 0 
+    [2500,000, 2750,000) = 0 
+
+  Percentiles, us/op:
+      p(0,0000) =      0,657 us/op
+     p(50,0000) =      0,836 us/op
+     p(90,0000) =      1,184 us/op
+     p(95,0000) =      1,508 us/op
+     p(99,0000) =      2,116 us/op
+     p(99,9000) =      8,480 us/op
+     p(99,9900) =     24,033 us/op
+     p(99,9990) =   1226,765 us/op
+     p(99,9999) =   1841,166 us/op
+    p(100,0000) =   2838,528 us/op
+
+
+# Run complete. Total time: 00:30:16
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                                        Mode      Cnt     Score    Error  Units
+LoggerBenchmark.javaLogger                                                     sample  1072300    46,727 ±  0,066  us/op
+LoggerBenchmark.javaLogger:javaLogger·p0.00                                    sample             43,712           us/op
+LoggerBenchmark.javaLogger:javaLogger·p0.50                                    sample             44,800           us/op
+LoggerBenchmark.javaLogger:javaLogger·p0.90                                    sample             46,592           us/op
+LoggerBenchmark.javaLogger:javaLogger·p0.95                                    sample             50,368           us/op
+LoggerBenchmark.javaLogger:javaLogger·p0.99                                    sample             94,080           us/op
+LoggerBenchmark.javaLogger:javaLogger·p0.999                                   sample            156,160           us/op
+LoggerBenchmark.javaLogger:javaLogger·p0.9999                                  sample           1283,154           us/op
+LoggerBenchmark.javaLogger:javaLogger·p1.00                                    sample           2072,576           us/op
+LoggerBenchmark.javaLoggerDisabled                                             sample  2130096     0,044 ±  0,001  us/op
+LoggerBenchmark.javaLoggerDisabled:javaLoggerDisabled·p0.00                    sample              0,003           us/op
+LoggerBenchmark.javaLoggerDisabled:javaLoggerDisabled·p0.50                    sample              0,041           us/op
+LoggerBenchmark.javaLoggerDisabled:javaLoggerDisabled·p0.90                    sample              0,041           us/op
+LoggerBenchmark.javaLoggerDisabled:javaLoggerDisabled·p0.95                    sample              0,044           us/op
+LoggerBenchmark.javaLoggerDisabled:javaLoggerDisabled·p0.99                    sample              0,073           us/op
+LoggerBenchmark.javaLoggerDisabled:javaLoggerDisabled·p0.999                   sample              0,124           us/op
+LoggerBenchmark.javaLoggerDisabled:javaLoggerDisabled·p0.9999                  sample              7,520           us/op
+LoggerBenchmark.javaLoggerDisabled:javaLoggerDisabled·p1.00                    sample            357,888           us/op
+LoggerBenchmark.javaLoggerThrowable                                            sample  1345032    74,219 ±  0,084  us/op
+LoggerBenchmark.javaLoggerThrowable:javaLoggerThrowable·p0.00                  sample             60,032           us/op
+LoggerBenchmark.javaLoggerThrowable:javaLoggerThrowable·p0.50                  sample             67,840           us/op
+LoggerBenchmark.javaLoggerThrowable:javaLoggerThrowable·p0.90                  sample             91,264           us/op
+LoggerBenchmark.javaLoggerThrowable:javaLoggerThrowable·p0.95                  sample            113,920           us/op
+LoggerBenchmark.javaLoggerThrowable:javaLoggerThrowable·p0.99                  sample            145,920           us/op
+LoggerBenchmark.javaLoggerThrowable:javaLoggerThrowable·p0.999                 sample            229,632           us/op
+LoggerBenchmark.javaLoggerThrowable:javaLoggerThrowable·p0.9999                sample           1427,456           us/op
+LoggerBenchmark.javaLoggerThrowable:javaLoggerThrowable·p1.00                  sample           3420,160           us/op
+LoggerBenchmark.javaLoggerWithoutParams                                        sample  1154353    43,262 ±  0,058  us/op
+LoggerBenchmark.javaLoggerWithoutParams:javaLoggerWithoutParams·p0.00          sample             34,688           us/op
+LoggerBenchmark.javaLoggerWithoutParams:javaLoggerWithoutParams·p0.50          sample             39,744           us/op
+LoggerBenchmark.javaLoggerWithoutParams:javaLoggerWithoutParams·p0.90          sample             52,352           us/op
+LoggerBenchmark.javaLoggerWithoutParams:javaLoggerWithoutParams·p0.95          sample             68,224           us/op
+LoggerBenchmark.javaLoggerWithoutParams:javaLoggerWithoutParams·p0.99          sample             88,832           us/op
+LoggerBenchmark.javaLoggerWithoutParams:javaLoggerWithoutParams·p0.999         sample            145,408           us/op
+LoggerBenchmark.javaLoggerWithoutParams:javaLoggerWithoutParams·p0.9999        sample           1099,776           us/op
+LoggerBenchmark.javaLoggerWithoutParams:javaLoggerWithoutParams·p1.00          sample           3305,472           us/op
+LoggerBenchmark.log4jLogger                                                    sample  2261395     1,435 ±  0,004  us/op
+LoggerBenchmark.log4jLogger:log4jLogger·p0.00                                  sample              1,092           us/op
+LoggerBenchmark.log4jLogger:log4jLogger·p0.50                                  sample              1,310           us/op
+LoggerBenchmark.log4jLogger:log4jLogger·p0.90                                  sample              1,666           us/op
+LoggerBenchmark.log4jLogger:log4jLogger·p0.95                                  sample              2,292           us/op
+LoggerBenchmark.log4jLogger:log4jLogger·p0.99                                  sample              3,048           us/op
+LoggerBenchmark.log4jLogger:log4jLogger·p0.999                                 sample             10,800           us/op
+LoggerBenchmark.log4jLogger:log4jLogger·p0.9999                                sample             26,350           us/op
+LoggerBenchmark.log4jLogger:log4jLogger·p1.00                                  sample           1452,032           us/op
+LoggerBenchmark.log4jLoggerDisabled                                            sample  2738895     0,055 ±  0,001  us/op
+LoggerBenchmark.log4jLoggerDisabled:log4jLoggerDisabled·p0.00                  sample              0,001           us/op
+LoggerBenchmark.log4jLoggerDisabled:log4jLoggerDisabled·p0.50                  sample              0,049           us/op
+LoggerBenchmark.log4jLoggerDisabled:log4jLoggerDisabled·p0.90                  sample              0,066           us/op
+LoggerBenchmark.log4jLoggerDisabled:log4jLoggerDisabled·p0.95                  sample              0,078           us/op
+LoggerBenchmark.log4jLoggerDisabled:log4jLoggerDisabled·p0.99                  sample              0,118           us/op
+LoggerBenchmark.log4jLoggerDisabled:log4jLoggerDisabled·p0.999                 sample              0,293           us/op
+LoggerBenchmark.log4jLoggerDisabled:log4jLoggerDisabled·p0.9999                sample              7,704           us/op
+LoggerBenchmark.log4jLoggerDisabled:log4jLoggerDisabled·p1.00                  sample            252,672           us/op
+LoggerBenchmark.log4jLoggerThrowable                                           sample  1811902    27,509 ±  0,030  us/op
+LoggerBenchmark.log4jLoggerThrowable:log4jLoggerThrowable·p0.00                sample             21,056           us/op
+LoggerBenchmark.log4jLoggerThrowable:log4jLoggerThrowable·p0.50                sample             25,088           us/op
+LoggerBenchmark.log4jLoggerThrowable:log4jLoggerThrowable·p0.90                sample             35,520           us/op
+LoggerBenchmark.log4jLoggerThrowable:log4jLoggerThrowable·p0.95                sample             46,912           us/op
+LoggerBenchmark.log4jLoggerThrowable:log4jLoggerThrowable·p0.99                sample             58,880           us/op
+LoggerBenchmark.log4jLoggerThrowable:log4jLoggerThrowable·p0.999               sample             98,176           us/op
+LoggerBenchmark.log4jLoggerThrowable:log4jLoggerThrowable·p0.9999              sample            207,104           us/op
+LoggerBenchmark.log4jLoggerThrowable:log4jLoggerThrowable·p1.00                sample           2539,520           us/op
+LoggerBenchmark.log4jLoggerWithoutParams                                       sample  2429212     0,699 ±  0,002  us/op
+LoggerBenchmark.log4jLoggerWithoutParams:log4jLoggerWithoutParams·p0.00        sample              0,498           us/op
+LoggerBenchmark.log4jLoggerWithoutParams:log4jLoggerWithoutParams·p0.50        sample              0,628           us/op
+LoggerBenchmark.log4jLoggerWithoutParams:log4jLoggerWithoutParams·p0.90        sample              0,834           us/op
+LoggerBenchmark.log4jLoggerWithoutParams:log4jLoggerWithoutParams·p0.95        sample              1,132           us/op
+LoggerBenchmark.log4jLoggerWithoutParams:log4jLoggerWithoutParams·p0.99        sample              1,490           us/op
+LoggerBenchmark.log4jLoggerWithoutParams:log4jLoggerWithoutParams·p0.999       sample              5,624           us/op
+LoggerBenchmark.log4jLoggerWithoutParams:log4jLoggerWithoutParams·p0.9999      sample             25,773           us/op
+LoggerBenchmark.log4jLoggerWithoutParams:log4jLoggerWithoutParams·p1.00        sample            492,544           us/op
+LoggerBenchmark.logbackLogger                                                  sample  2011832     1,669 ±  0,021  us/op
+LoggerBenchmark.logbackLogger:logbackLogger·p0.00                              sample              1,104           us/op
+LoggerBenchmark.logbackLogger:logbackLogger·p0.50                              sample              1,398           us/op
+LoggerBenchmark.logbackLogger:logbackLogger·p0.90                              sample              2,144           us/op
+LoggerBenchmark.logbackLogger:logbackLogger·p0.95                              sample              2,616           us/op
+LoggerBenchmark.logbackLogger:logbackLogger·p0.99                              sample              4,504           us/op
+LoggerBenchmark.logbackLogger:logbackLogger·p0.999                             sample             17,152           us/op
+LoggerBenchmark.logbackLogger:logbackLogger·p0.9999                            sample             52,713           us/op
+LoggerBenchmark.logbackLogger:logbackLogger·p1.00                              sample           3186,688           us/op
+LoggerBenchmark.logbackLoggerDisabled                                          sample  2917169     0,057 ±  0,001  us/op
+LoggerBenchmark.logbackLoggerDisabled:logbackLoggerDisabled·p0.00              sample              0,003           us/op
+LoggerBenchmark.logbackLoggerDisabled:logbackLoggerDisabled·p0.50              sample              0,051           us/op
+LoggerBenchmark.logbackLoggerDisabled:logbackLoggerDisabled·p0.90              sample              0,070           us/op
+LoggerBenchmark.logbackLoggerDisabled:logbackLoggerDisabled·p0.95              sample              0,082           us/op
+LoggerBenchmark.logbackLoggerDisabled:logbackLoggerDisabled·p0.99              sample              0,124           us/op
+LoggerBenchmark.logbackLoggerDisabled:logbackLoggerDisabled·p0.999             sample              0,311           us/op
+LoggerBenchmark.logbackLoggerDisabled:logbackLoggerDisabled·p0.9999            sample              7,706           us/op
+LoggerBenchmark.logbackLoggerDisabled:logbackLoggerDisabled·p1.00              sample            238,592           us/op
+LoggerBenchmark.logbackLoggerThrowable                                         sample  1851508     6,988 ±  0,051  us/op
+LoggerBenchmark.logbackLoggerThrowable:logbackLoggerThrowable·p0.00            sample              4,648           us/op
+LoggerBenchmark.logbackLoggerThrowable:logbackLoggerThrowable·p0.50            sample              5,864           us/op
+LoggerBenchmark.logbackLoggerThrowable:logbackLoggerThrowable·p0.90            sample              9,360           us/op
+LoggerBenchmark.logbackLoggerThrowable:logbackLoggerThrowable·p0.95            sample             10,768           us/op
+LoggerBenchmark.logbackLoggerThrowable:logbackLoggerThrowable·p0.99            sample             15,824           us/op
+LoggerBenchmark.logbackLoggerThrowable:logbackLoggerThrowable·p0.999           sample             32,352           us/op
+LoggerBenchmark.logbackLoggerThrowable:logbackLoggerThrowable·p0.9999          sample           1308,672           us/op
+LoggerBenchmark.logbackLoggerThrowable:logbackLoggerThrowable·p1.00            sample           2605,056           us/op
+LoggerBenchmark.logbackLoggerWithoutParams                                     sample  3499681     0,959 ±  0,010  us/op
+LoggerBenchmark.logbackLoggerWithoutParams:logbackLoggerWithoutParams·p0.00    sample              0,657           us/op
+LoggerBenchmark.logbackLoggerWithoutParams:logbackLoggerWithoutParams·p0.50    sample              0,836           us/op
+LoggerBenchmark.logbackLoggerWithoutParams:logbackLoggerWithoutParams·p0.90    sample              1,184           us/op
+LoggerBenchmark.logbackLoggerWithoutParams:logbackLoggerWithoutParams·p0.95    sample              1,508           us/op
+LoggerBenchmark.logbackLoggerWithoutParams:logbackLoggerWithoutParams·p0.99    sample              2,116           us/op
+LoggerBenchmark.logbackLoggerWithoutParams:logbackLoggerWithoutParams·p0.999   sample              8,480           us/op
+LoggerBenchmark.logbackLoggerWithoutParams:logbackLoggerWithoutParams·p0.9999  sample             24,033           us/op
+LoggerBenchmark.logbackLoggerWithoutParams:logbackLoggerWithoutParams·p1.00    sample           2838,528           us/op
+
+Benchmark result is saved to sample-time.json
